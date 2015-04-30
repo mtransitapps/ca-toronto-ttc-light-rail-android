@@ -2,7 +2,7 @@ Title: Toronto TTC Streetcar - MonTr…
 ----------
 Short description:
 Toronto TTC streetcars for MonTransit BETA.
-Schedule. Real-Time Service Alerts. News.
+Schedule. Real-Time. Alerts. News.
 ----------
 What's new in this version?:
 Schedule from April 1, 2015 to May 9, 2015.
