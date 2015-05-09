@@ -5,7 +5,7 @@ Toronto TTC streetcars for MonTransit BETA.
 Schedule. Real-Time. Alerts. News.
 ----------
 What's new in this version?:
-Schedule from April 1, 2015 to May 9, 2015.
+Schedule from May 10, 2015 to June 20, 2015.
 News from www.ttc.ca.
 Tweets from @StreetcarTO, @TTCnotices & @TTChelps.
 
