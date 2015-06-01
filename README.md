@@ -1,4 +1,4 @@
-# Toronto TTC Light Rail (Streetcar) for [MonTransit BETA](https://github.com/mtransitapps/mtransit-for-android)
+# Toronto TTC Light Rail (Streetcar) for [MonTransit](https://github.com/mtransitapps/mtransit-for-android)
 
 <img width="25%" height="25%" src="https://raw.githubusercontent.com/mtransitapps/ca-toronto-ttc-light-rail-android/master/pub/hi-res-app-icon.png"/>
 
@@ -14,7 +14,15 @@
 
 ## Social
 
-* [MonTransit BETA Google+ Community](https://plus.google.com/communities/111796337224469270605)
+* [Facebook](https://www.facebook.com/MonTransit)
+
+* [Google+](http://gplus.to/MonTransit/)
+
+* [Twitter](https://twitter.com/montransit)
+
+## BETA program
+
+Learn more about the BETA program [here](https://github.com/mtransitapps/mtransit-for-android/wiki/BETA)
 
 ## License
 
