@@ -16,7 +16,6 @@
 614,'1451','Parliament St / Carlton St',43.664072,-79.367834
 615,'1452','Parliament St / Gerrard St East',43.66206,-79.36715
 632,'10210','Fleet St / Bathurst St',43.636543,-79.399884
-633,'13372','Fleet St / Bathurst St',43.636403,-79.400197
 688,'1080','Gerrard St East / Blackburn St',43.664688,-79.355393
 704,'3087','Queen St West / Soho St',43.649548,-79.393279
 746,'3052','Queen St East / Jones Ave',43.662787,-79.332563
@@ -138,12 +137,9 @@
 2368,'2147','Dundas St West / Beverley St',43.653887,-79.393723
 2380,'13672','Bathurst St / Fort York Blvd',43.63868,-79.400459
 2426,'2159','Dundas St West / Dovercourt Rd',43.649488,-79.424628
-2435,'6636','Parliament St / Dundas St East',43.659297,-79.36584
 2444,'4177','King St West / John St',43.64666,-79.389644
 2452,'4189','King St West / Tecumseth St',43.643342,-79.405383
 2462,'4188','King St West / Strachan Ave',43.642196,-79.411648
-2483,'6637','Parliament St / Gerrard St East',43.661756,-79.366865
-2501,'6643','Parliament St / Queen St East',43.655444,-79.364282
 2510,'4147','King St East / St Lawrence St',43.656285,-79.357078
 2568,'823','College St / Crawford St',43.655236,-79.418871
 2615,'1107','Gerrard St East / Sackville St',43.662686,-79.363894
@@ -283,7 +279,6 @@
 4865,'848','College St / Yonge St (College Station)',43.661263,-79.383291
 4875,'1094','Gerrard St East / Leslie St',43.669708,-79.333262
 4891,'1759','Broadview Ave / Langley Ave-Bridgepoint Health Ctr',43.667669,-79.353326
-4893,'9900','Edna Ave / Dundas St West',43.657224,-79.452903
 4902,'990','Dundas St West / Sterling Rd',43.650652,-79.442631
 4921,'1092','Gerrard St East / Jones Ave',43.669144,-79.335783
 4969,'4183','King St West / Simcoe St',43.647493,-79.385959
@@ -306,7 +301,6 @@
 5399,'186','Bathurst St / Queen St West',43.647036,-79.40392
 5405,'4182','King St West / Simcoe St',43.647278,-79.386189
 5422,'4162','King St West / Shaw St',43.641347,-79.41524
-5446,'6646','Parliament St / Shuter St',43.656835,-79.36489
 5447,'4168','King St West / Dunn Ave',43.637646,-79.433375
 5462,'813','College St / Bay St',43.660738,-79.386136
 5467,'4155','King St West / Atlantic Ave',43.640068,-79.421418
@@ -441,7 +435,6 @@
 7898,'2150','Dundas St West / Bloor St West',43.656125,-79.452253
 7899,'6848','Queen St West / Palmerston Ave',43.646756,-79.406436
 7913,'755','Carlton St / Ontario St',43.663631,-79.370669
-7931,'6645','Parliament St / Richmond St East',43.654459,-79.363866
 7935,'1095','Gerrard St East / Leslie St',43.669883,-79.332926
 7949,'4573','Roncesvalles Ave / Galley Ave',43.642968,-79.447818
 7950,'3061','Queen St East / Ontario St',43.655147,-79.366798
@@ -548,7 +541,6 @@
 9441,'2785','Kingston Rd / Main St',43.679037,-79.297742
 9453,'5195','Lake Shore Blvd West / Park Lawn Rd',43.622784,-79.4812
 9459,'6849','Queen St West / Roncesvalles Ave',43.638893,-79.445739
-9500,'6642','Parliament St / Oak St',43.660604,-79.366397
 9523,'822','College St / Crawford St',43.655068,-79.419163
 9568,'2172','Dundas St West / Lisgar St',43.649445,-79.426872
 9607,'6836','Queen St West / Brock Ave',43.6414,-79.432419
