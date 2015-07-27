@@ -55,6 +55,7 @@
 1246,'2786','Kingston Rd / Malvern Ave',43.680179,-79.292509
 1258,'5151','Lk Shr Blvd West / Tenth St',43.600149,-79.508464
 1260,'6810','Queen St East / Sarah Ashbridge Ave',43.667902,-79.309314
+1263,'6632','Parliament St / Adelaide St East',43.65363,-79.363673
 1268,'1123','Gerrard St East / Kingsmount Pk Rd',43.679852,-79.312659
 1288,'7356','Spadina Ave / Sullivan St North Side',43.651245,-79.397305
 1296,'13367','Queens Quay West / Dan Leckie Way West Side',43.63648,-79.397345
@@ -140,6 +141,8 @@
 2444,'4177','King St West / John St',43.64666,-79.389644
 2452,'4189','King St West / Tecumseth St',43.643342,-79.405383
 2462,'4188','King St West / Strachan Ave',43.642196,-79.411648
+2483,'6637','Parliament St / Gerrard St East',43.661756,-79.366865
+2501,'6643','Parliament St / Queen St East',43.655444,-79.364282
 2510,'4147','King St East / St Lawrence St',43.656285,-79.357078
 2568,'823','College St / Crawford St',43.655236,-79.418871
 2615,'1107','Gerrard St East / Sackville St',43.662686,-79.363894
@@ -176,6 +179,7 @@
 3196,'6817','Queen St East / Silver Birch Ave',43.673274,-79.28484
 3206,'847','College St / University Ave (Queen''s Pk Sta)',43.659707,-79.390775
 3246,'1106','Gerrard St East / Sackville St',43.662495,-79.364212
+3261,'10229','Parliament St / Richmond St East',43.65463,-79.364105
 3271,'3055','Queen St East / Laing St',43.663836,-79.327419
 3281,'2775','Kingston Rd / Dundas St East',43.670086,-79.311229
 3292,'1093','Gerrard St East / Jones Ave',43.669332,-79.335419
@@ -301,6 +305,7 @@
 5399,'186','Bathurst St / Queen St West',43.647036,-79.40392
 5405,'4182','King St West / Simcoe St',43.647278,-79.386189
 5422,'4162','King St West / Shaw St',43.641347,-79.41524
+5446,'6646','Parliament St / Shuter St',43.656835,-79.36489
 5447,'4168','King St West / Dunn Ave',43.637646,-79.433375
 5462,'813','College St / Bay St',43.660738,-79.386136
 5467,'4155','King St West / Atlantic Ave',43.640068,-79.421418
@@ -337,6 +342,7 @@
 6075,'12085','Spadina Ave / Queens Quay West North Side',43.637845,-79.391887
 6087,'2174','Dundas St West / Mccaul St',43.654406,-79.391222
 6108,'6861','Queen St West / Yonge St (Queen Sta)',43.652289,-79.379452
+6122,'6640','Parliament St / King St East',43.652802,-79.363322
 6139,'3086','Queen St West / Simcoe St West Side',43.65062,-79.38792
 6145,'7358','Spadina Ave / Willcocks St',43.661127,-79.40128
 6156,'3043','Queen St East / Connaught Ave',43.665122,-79.322215
@@ -435,6 +441,7 @@
 7898,'2150','Dundas St West / Bloor St West',43.656125,-79.452253
 7899,'6848','Queen St West / Palmerston Ave',43.646756,-79.406436
 7913,'755','Carlton St / Ontario St',43.663631,-79.370669
+7931,'6645','Parliament St / Richmond St East',43.654459,-79.363866
 7935,'1095','Gerrard St East / Leslie St',43.669883,-79.332926
 7949,'4573','Roncesvalles Ave / Galley Ave',43.642968,-79.447818
 7950,'3061','Queen St East / Ontario St',43.655147,-79.366798
@@ -529,6 +536,7 @@
 9300,'2800','Kingston Rd / Waverley Rd',43.676823,-79.304185
 9301,'3051','Queen St East / Jarvis St',43.653815,-79.373072
 9317,'5158','Lk Shr Blvd West / Twenty 6th St',43.596667,-79.524267
+9319,'10182','Dundas St East / Regent Rd East Side',43.659818,-79.363971
 9320,'1087','Gerrard St East / Degrassi St',43.66624,-79.348707
 9321,'824','College St / Dovercourt Rd',43.653544,-79.426502
 9335,'6832','Queen St West / Dovercourt Rd',43.643568,-79.422092
@@ -541,6 +549,7 @@
 9441,'2785','Kingston Rd / Main St',43.679037,-79.297742
 9453,'5195','Lk Shr Blvd West / Pk Lawn Rd',43.622784,-79.4812
 9459,'6849','Queen St West / Roncesvalles Ave',43.638893,-79.445739
+9500,'6642','Parliament St / Oak St',43.660604,-79.366397
 9523,'822','College St / Crawford St',43.655068,-79.419163
 9568,'2172','Dundas St West / Lisgar St',43.649445,-79.426872
 9607,'6836','Queen St West / Brock Ave',43.6414,-79.432419
@@ -586,6 +595,7 @@
 10367,'838','College St / Mccaul St',43.659313,-79.393281
 10371,'6801','Queen St East / Beech Ave',43.672583,-79.287697
 10390,'10946','Queens Quay Ferry Docks Terminal',43.641449,-79.377087
+10399,'1063','Manitoba Dr / Strachan Ave West Side',43.636272,-79.410325
 10424,'14355','St Clair Ave West / Spadina Rd West Side',43.684523,-79.411668
 10438,'14400','King St West / Joe Shuster Way',43.639855,-79.423256
 10441,'14395','The Queensway / Windermere Ave West Side',43.637099,-79.470714
@@ -655,6 +665,7 @@
 14837,'15059','Roncesvalles Ave / Queen St West North Side',43.639188,-79.446162
 14838,'15050','St Clair Ave West / Old Stock Yards Rd',43.671812,-79.470602
 15016,'15190','Exhibition Loop',43.635616,-79.418204
+15033,'15218','Parliament St / Dundas St E',43.659101,-79.365752
 15048,'15224','Bathurst St / Niagara St',43.641839,-79.401728
 15049,'15225','Bathurst St / Niagara St',43.641964,-79.402014
 15122,'15331','Queens Quay W / Rees St',43.638794,-79.386666
