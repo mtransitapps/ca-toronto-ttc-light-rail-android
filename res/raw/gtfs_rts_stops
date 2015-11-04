@@ -814,16 +814,16 @@
 12919,'14509','Fleet St @ Fort York Blvd W',43.636472,-79.40734
 13035,'S_BRGE','Broadview @ Gerrard',43.665479,-79.352612
 13040,'S_BRQU','Broadview @ Queen',43.658871,-79.34984
-13069,'S_CARL','Carlton St. @ Parliament St.',43.664279,-79.367969
+13069,'S_CARL','Carlton St @ Parliament St',43.664279,-79.367969
 13209,'S_DWST','Dundas W Sta',43.656986,-79.453233
-13393,'S_KEFI','Keele St. @ Finch Ave. W.',43.76405,-79.488248
+13393,'S_KEFI','Keele St @ Finch Ave W',43.76405,-79.488248
 13503,'S_MCAL','Mccaul Loop',43.652029,-79.390125
 13575,'S_MSTN','Main Sta',43.688918,-79.302183
-13637,'S_PASS','Kennedy Rd. @ Passmore Ave.',43.818441,-79.30474
+13637,'S_PASS','Kennedy Rd @ Passmore Ave',43.818441,-79.30474
 13652,'S_PKNG','Parliament @ King',43.652723,-79.363233
-13680,'S_QUPA','Queen St. E. @ Parliment Ave.',43.655608,-79.36445
-13717,'S_ROWS','Rogers Rd. @ Weston Rd.',43.681602,-79.476737
-13720,'S_RQEN','Ronc. @ Queen',43.638708,-79.446205
+13680,'S_QUPA','Queen St E @ Parliment Ave',43.655608,-79.36445
+13717,'S_ROWS','Rogers Rd @ Weston Rd',43.681602,-79.476737
+13720,'S_RQEN','Ronc @ Queen',43.638708,-79.446205
 13818,'S_SPQQ','Spadina/Queensquay',43.637645,-79.391876
 14142,'14619','Bathurst Sta',43.666532,-79.411286
 14161,'14639','Broadview Sta',43.677013,-79.358147
