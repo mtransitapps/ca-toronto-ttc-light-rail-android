@@ -40,7 +40,7 @@
 804,'4077','Kennedy Rd @ Dancy Ave N',43.805877,-79.298998
 877,'4710','Wellington St W @ Bay St',43.647418,-79.379552
 878,'4712','Wellington St W @ York St',43.646725,-79.38288
-913,'11416','York Blvd (N) @ York University Commons',43.774088,-79.501056
+911,'11279','York Blvd (N) @ York University Commons',43.774062,-79.501302
 921,'4736','York St @ King St W',43.647821,-79.383402
 945,'4186','King St W @ Spencer Ave',43.638134,-79.430996
 954,'4190','King St W @ Tecumseth St',43.643495,-79.405053
@@ -102,7 +102,6 @@
 1494,'8149','St Clair Ave W @ Ave Rd E',43.686654,-79.400868
 1520,'2869','Mccaul St @ Queen St W',43.650347,-79.38983
 1528,'3983','Keele St @ George Appleton Way S',43.724535,-79.48183
-1534,'97','Bathurst St @ Bloor St W S',43.664464,-79.410976
 1549,'4160','King St W @ Brant St W',43.64485,-79.398332
 1551,'10945','Queens Quay Ferry Docks Terminal',43.642049,-79.377387
 1557,'2132','Dundas St E @ Sumach St',43.660544,-79.360691
@@ -295,7 +294,6 @@
 3926,'13369','Queens Quay W @ Dan Leckie Way E',43.636812,-79.396195
 3962,'751','Carlton St @ Church St',43.66174,-79.379636
 3999,'4132','Kennedy Rd @ Wickware Gt',43.75336,-79.276467
-4004,'10751','Lk Shr Blvd W @ Summerhill Rd',43.612062,-79.489766
 4012,'825','College St @ Dovercourt Rd',43.653691,-79.426257
 4015,'13463','Parliament St @ Carlton St',43.663919,-79.367739
 4016,'4102','Kennedy Rd @ Munham Gt',43.759165,-79.278473
@@ -443,7 +441,6 @@
 5926,'3987','Keele St @ Falstaff Ave S',43.720281,-79.480801
 5927,'7357','Spadina Ave @ Sussex Ave',43.66446,-79.402597
 5948,'841','College St @ Queen''s Pk (Queen''s Pk Sta)',43.66002,-79.390117
-5953,'96','Bathurst St @ Bloor St W',43.665033,-79.41107
 5957,'4502','Old Weston Rd @ Rockwell Ave',43.676465,-79.463772
 5988,'2124','Dundas St E @ Parliament St',43.659375,-79.366132
 5993,'753','Carlton St @ Jarvis St',43.662325,-79.376852
@@ -887,5 +884,7 @@
 15122,'15331','Queens Quay W @ Rees St',43.638794,-79.386666
 15123,'15332','Queens Quay W @ Harbourfront Ctr',43.63969,-79.381426
 15124,'15333','Queens Quay W @ Harbourfront Ctr',43.639771,-79.381376
+15125,'15334','Bloor St W @ Lennox St',43.663891,-79.410837
+15142,'15351','King St E @ River St',43.656733,-79.35629
 15252,'15431','66 Keele St',43.656308,-79.46072
 15254,'15434','Keele St @ Bloor St W (Keele Sta)',43.655384,-79.460253
