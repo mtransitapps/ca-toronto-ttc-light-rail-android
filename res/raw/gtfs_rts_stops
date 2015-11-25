@@ -298,7 +298,6 @@
 4015,'13463','Parliament St @ Carlton St',43.663919,-79.367739
 4016,'4102','Kennedy Rd @ Munham Gt',43.759165,-79.278473
 4019,'2794','Kingston Rd @ Scarborough Rd',43.680468,-79.287193
-4029,'103','Bathurst St @ Carr St N',43.649338,-79.404724
 4032,'6833','Queen St W @ Dowling Ave',43.639891,-79.439986
 4034,'3045','Queen St E @ Coxwell Ave',43.666426,-79.316446
 4041,'3374','Broadview Ave @ Queen St E',43.659114,-79.349959
@@ -608,7 +607,6 @@
 8082,'3050','Queen St E @ Jarvis St',43.653617,-79.373394
 8105,'149','Bathurst St @ Harbord St',43.661636,-79.409869
 8135,'836','College St @ Lansdowne Ave',43.651202,-79.439698
-8159,'2134','Dundas St E @ Victoria St',43.656272,-79.37979
 8173,'5194','Lk Shr Blvd W @ Norris Cres',43.610822,-79.489953
 8179,'10601','Kennedy Rd @ Perthshire St',43.809105,-79.300642
 8207,'4140','King St E @ Parliament St',43.652572,-79.363379
@@ -643,7 +641,6 @@
 8579,'3977','Keele St @ Diana Dr',43.740988,-79.485367
 8597,'2802','Kingston Rd @ Woodbine Ave',43.673723,-79.308054
 8602,'9781','Steeles Ave E @ Silver Star Blvd',43.825117,-79.300483
-8606,'2135','Dundas St E @ Victoria St',43.656314,-79.379398
 8631,'3997','Keele St @ Grandravine Dr',43.752267,-79.48832
 8632,'2120','Dundas St E @ Munro St',43.661959,-79.353142
 8633,'1113','Gerrard St E @ Beaton Ave',43.676062,-79.317092
@@ -822,6 +819,7 @@
 13717,'S_ROWS','Rogers Rd @ Weston Rd',43.681602,-79.476737
 13720,'S_RQEN','Ronc @ Queen',43.638708,-79.446205
 13818,'S_SPQQ','Spadina/Queensquay',43.637645,-79.391876
+13891,'S_VIDU','Victoria @ Dundas St',43.656284,-79.379563
 14142,'14619','Bathurst Sta',43.666532,-79.411286
 14161,'14639','Broadview Sta',43.677013,-79.358147
 14162,'14640','Broadview Sta',43.677134,-79.358206
@@ -885,6 +883,7 @@
 15123,'15332','Queens Quay W @ Harbourfront Ctr',43.63969,-79.381426
 15124,'15333','Queens Quay W @ Harbourfront Ctr',43.639771,-79.381376
 15125,'15334','Bloor St W @ Lennox St',43.663891,-79.410837
+15126,'15335','Bathurst St @ Carr St',43.648801,-79.404494
 15142,'15351','King St E @ River St',43.656733,-79.35629
 15252,'15431','66 Keele St',43.656308,-79.46072
 15254,'15434','Keele St @ Bloor St W (Keele Sta)',43.655384,-79.460253
