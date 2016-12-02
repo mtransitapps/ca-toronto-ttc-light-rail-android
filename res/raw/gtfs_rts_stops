@@ -2,7 +2,6 @@
 310,'9855','Edna Ave @ Dundas St W',43.657149,-79.45303
 436,'4185','King St W @ Spadina Ave',43.645581,-79.394664
 437,'4187','King St W @ Strachan Ave',43.641987,-79.412127
-462,'13366','Exhibition Loop @ Manitoba Dr',43.636522,-79.414745
 472,'6523','Humber Loop @ The Queensway',43.630948,-79.478791
 473,'13692','Humber Loop @ The Queensway',43.631075,-79.478711
 474,'11791','Humber Loop @ The Queensway',43.631192,-79.478612
@@ -368,7 +367,6 @@
 7703,'1086','Gerrard St E @ Degrassi St',43.666416,-79.348415
 7718,'6839','Queen St W @ Brock Ave',43.641533,-79.432235
 7733,'1098','Gerrard St E @ Marjory Ave',43.668728,-79.337636
-7734,'1062','Fleet St @ Strachan Ave',43.636189,-79.410242
 7769,'4158','King St W @ Bay St',43.648551,-79.380493
 7801,'1767','Broadview Ave @ Withrow Ave',43.669875,-79.353428
 7809,'1763','Broadview Ave @ Simpson Ave',43.666497,-79.353134
@@ -506,7 +504,6 @@
 10367,'838','College St @ Mccaul St',43.659313,-79.393281
 10371,'6801','Queen St E @ Beech Ave',43.672583,-79.287697
 10390,'10946','Queens Quay Ferry Docks Terminal',43.641449,-79.377087
-10399,'1063','Manitoba Dr @ Strachan Ave W',43.636272,-79.410325
 10424,'14355','St Clair Ave W @ Spadina Rd W',43.684523,-79.411668
 10438,'14400','King St W @ Joe Shuster Way',43.639855,-79.423256
 10441,'14395','The Queensway @ Windermere Ave W',43.637099,-79.470714
@@ -515,13 +512,11 @@
 10473,'14393','The Queensway @ Colborne Lodge Dr W',43.639401,-79.460603
 12891,'14511','Fleet St @ Bastion St W',43.636009,-79.403612
 12898,'14512','Fleet St @ Bastion St',43.635885,-79.404275
-12913,'14508','Fleet St @ Fort York Blvd E',43.636242,-79.406254
-12919,'14509','Fleet St @ Fort York Blvd W',43.636472,-79.40734
 12976,'S_BAFL','Bathurst @ Fleet',43.636623,-79.399707
 13035,'S_BRGE','Broadview @ Gerrard',43.665479,-79.352612
 13040,'S_BRQU','Broadview @ Queen',43.658871,-79.34984
 13209,'S_DWST','Dundas W Sta',43.656986,-79.453233
-13267,'S_EXHI','Exhibition E Loop',43.636246,-79.415988
+13288,'S_FLET','Fleet Loop',43.635763,-79.404974
 13512,'S_MCQU','Mccaul St',43.650188,-79.389742
 13575,'S_MSTN','Main Sta',43.688918,-79.302183
 13611,'S_OKLP','Oakwood Loop (N Of St Clair)',43.680564,-79.435519
@@ -579,7 +574,6 @@
 14837,'15059','Roncesvalles Ave @ Queen St W N',43.639188,-79.446162
 14838,'15050','St Clair Ave W @ Old Stock Yards Rd',43.671812,-79.470602
 14968,'15155','Humber Loop',43.630986,-79.478985
-15016,'15190','Exhibition Loop',43.635616,-79.418204
 15122,'15331','Queens Quay W @ Rees St',43.638794,-79.386666
 15123,'15332','Queens Quay W @ Harbourfront Ctr',43.63969,-79.381426
 15124,'15333','Queens Quay W @ Harbourfront Ctr',43.639771,-79.381376
