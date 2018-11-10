@@ -4,7 +4,6 @@
 472,'6523','Humber Loop @ The Queensway',43.630949,-79.478791
 475,'7948','Earlscourt Loop @ St Clair Ave W',43.675991,-79.451019
 478,'10927','Queens Quay Loop @ Lower Spadina Ave',43.638552,-79.391669
-481,'11155','Sunnyside Loop',43.639025,-79.448299
 489,'11845','Queen St E @ Kingston Rd',43.667071,-79.31283
 490,'13461','Queen St E @ Kingston Rd',43.667135,-79.312892
 549,'1262','Main St @ Danforth Ave',43.688037,-79.301649
@@ -389,7 +388,6 @@
 9320,'1087','Gerrard St E @ Degrassi St',43.66624,-79.348707
 9321,'824','College St @ Dovercourt Rd',43.653544,-79.426502
 9335,'6832','Queen St W @ Dovercourt Rd',43.643568,-79.422092
-9377,'5176','Opposite 2155 Lk Shr Blvd W West',43.625544,-79.479915
 9382,'5181','Lk Shr Blvd W @ Kipling Ave',43.59833,-79.516749
 9383,'4578','Roncesvalles Ave @ Howard Pk Ave',43.651303,-79.450917
 9423,'5199','2111 Lk Shr Blvd W',43.629015,-79.478061
@@ -537,3 +535,4 @@
 24085,'15721','Lk Shr Blvd W @ Miles Rd',43.608224,-79.49026
 24086,'15720','Lk Shr Blvd W @ Norris Cres',43.610859,-79.489953
 24087,'15722','Lk Shr Blvd W @ Royal York Rd',43.60349,-79.4933
+24133,'15746','2155 Lk Shr Blvd W',43.626038,-79.479749
