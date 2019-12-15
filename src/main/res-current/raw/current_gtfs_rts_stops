@@ -7,6 +7,8 @@
 475,'7948','Earlscourt Loop @ St Clair Ave W',43.675983,-79.451027
 478,'10927','Queens Quay Loop @ Lower Spadina Ave',43.638419,-79.39184
 481,'11155','Sunnyside Loop',43.639046,-79.448354
+489,'11845','Queen St E @ Kingston Rd',43.667029,-79.312948
+490,'13461','Queen St E @ Kingston Rd',43.667119,-79.31289
 549,'1262','Main St @ Danforth Ave',43.688037,-79.301635
 553,'13923','Main St @ Gerrard St E',43.684182,-79.300207
 614,'1451','Parliament St @ Carlton St',43.663906,-79.36772
@@ -35,7 +37,6 @@
 1111,'6845','Queen St W @ Ohara Ave',43.641174,-79.434064
 1115,'4569','Roncesvalles Ave @ Boustead Ave S',43.653079,-79.45167
 1123,'1103','Gerrard St E @ Prust Ave',43.670451,-79.330316
-1129,'1787','Coxwell Ave @ Dundas St E',43.668538,-79.317395
 1138,'7349','Spadina Ave @ Dundas St W N',43.653388,-79.398172
 1159,'4142','King St E @ River St',43.657079,-79.35597
 1189,'3049','Queen St E @ Greenwood Ave',43.664452,-79.325179
@@ -45,6 +46,7 @@
 1227,'5200','Opposite 2111 Lk Shr Blvd W',43.628942,-79.478392
 1233,'5160','Lk Shr Blvd W @ Twenty 8th St',43.595685,-79.527699
 1258,'5151','Lk Shr Blvd W @ Tenth St',43.600155,-79.508496
+1260,'6810','Queen St E @ Sarah Ashbridge Ave',43.667893,-79.309305
 1263,'6632','Parliament St @ Adelaide St E',43.653617,-79.363704
 1268,'1123','Gerrard St E @ Kingsmount Pk Rd',43.67986,-79.312662
 1288,'7356','Spadina Ave @ Sullivan St N',43.651288,-79.397326
@@ -117,14 +119,12 @@
 2676,'1109','Gerrard St E @ Sumach St',43.663061,-79.361596
 2737,'759','Carlton St @ Sherbourne St',43.663289,-79.372902
 2748,'815','College St @ Beverley St',43.658547,-79.396368
-2754,'11183','Coxwell Ave @ Queen St E',43.665944,-79.316311
 2800,'3371','Broadview Ave @ Danforth Ave',43.676342,-79.359041
 2863,'1738','Bingham Ave @ Kingston Rd',43.680832,-79.285215
 2878,'817','College St @ Borden St',43.657064,-79.405017
 2954,'2167','Dundas St W @ Howard Pk Ave',43.652232,-79.448522
 2957,'5159','Lk Shr Blvd W @ Twenty 7th St',43.596328,-79.525043
 2958,'1150','Howard Pk Ave @ Indian Rd',43.650555,-79.455063
-2975,'8921','Woodbine Ave @ Kew Beach Ave',43.665506,-79.304809
 2976,'1110','Gerrard St E @ Sumach St',43.66327,-79.361269
 3039,'4178','King St W @ Niagara St',43.642809,-79.40776
 3060,'3048','Queen St E @ Greenwood Ave',43.664281,-79.325493
@@ -172,6 +172,7 @@
 3962,'751','Carlton St @ Church St',43.661721,-79.379621
 4012,'825','College St @ Dovercourt Rd',43.653692,-79.426251
 4019,'2794','Kingston Rd @ Scarborough Rd',43.680468,-79.287193
+4034,'3045','Queen St E @ Coxwell Ave',43.666427,-79.316446
 4041,'3374','Broadview Ave @ Queen St E',43.659107,-79.350021
 4119,'2783','Kingston Rd @ Lee Ave',43.678324,-79.300903
 4143,'6813','Queen St E @ Neville Pk Blvd',43.673911,-79.281723
@@ -183,7 +184,9 @@
 4322,'126','Bathurst St @ Dundas St W (Toronto Western Hosp)',43.652178,-79.405874
 4325,'1090','Gerrard St E @ Greenwood Ave',43.671001,-79.327856
 4341,'4166','King St W @ Dufferin St',43.639085,-79.427001
+4342,'6824','Queen St E @ Woodbine Ave',43.668635,-79.305945
 4364,'11683','Queen St E @ Neville Pk Blvd',43.673616,-79.282531
+4371,'6811','Queen St E @ Lockwood Rd',43.668108,-79.308924
 4389,'178','Bathurst St @ Nassau St (Toronto Western Hosp)',43.654353,-79.406946
 4396,'2092','Dufferin St @ Springhurst Ave',43.635014,-79.425934
 4402,'2428','Erindale Ave @ Broadview Ave',43.677531,-79.358416
@@ -234,7 +237,6 @@
 5422,'4162','King St W @ Shaw St',43.641309,-79.415217
 5446,'6646','Parliament St @ Shuter St',43.656843,-79.364855
 5447,'4168','King St W @ Dunn Ave',43.637647,-79.433376
-5456,'14273','1816 Lk Shr Blvd E',43.664228,-79.306339
 5462,'813','College St @ Bay St',43.660672,-79.386165
 5467,'4155','King St W @ Atlantic Ave',43.640051,-79.421415
 5469,'162','Bathurst St @ King St W',43.644139,-79.402833
@@ -255,7 +257,6 @@
 5899,'6825','Queen St W @ Abell St',43.642976,-79.424466
 5927,'7357','Spadina Ave @ Sussex Ave',43.664513,-79.40261
 5948,'841','College St @ Queen''s Pk (Queen''s Pk Sta)',43.659999,-79.390138
-5960,'14145','1816 Lk Shr Blvd E',43.664503,-79.306173
 5993,'753','Carlton St @ Jarvis St',43.662306,-79.376843
 6022,'1120','Gerrard St E @ Golfview Ave',43.681652,-79.30886
 6027,'2772','Kingston Rd @ Columbine Ave',43.671675,-79.310365
@@ -345,7 +346,7 @@
 8082,'3050','Queen St E @ Jarvis St',43.653602,-79.373383
 8105,'149','Bathurst St @ Harbord St',43.661614,-79.409887
 8135,'836','College St @ Lansdowne Ave',43.651168,-79.439866
-8207,'4140','King St E @ Parliament St',43.652556,-79.363371
+8207,'4140','King St E @ Parliament St',43.652558,-79.363362
 8219,'2790','Kingston Rd @ Rainsford Rd',43.672756,-79.309127
 8223,'9318','Broadview Ave @ Mt Stephen St',43.664096,-79.35214
 8244,'4576','Roncesvalles Ave @ Grenadier Rd',43.648639,-79.449872
@@ -372,7 +373,6 @@
 8686,'6851','Queen St W @ Shaw St',43.64479,-79.416155
 8702,'1084','Gerrard St E @ Carlaw Ave',43.667717,-79.342605
 8731,'3074','Queen St E @ Sumach St',43.656918,-79.358807
-8742,'1795','Coxwell Ave @ Queen St E',43.666692,-79.316748
 8746,'6803','Queen St E @ Elmer Ave',43.669336,-79.303443
 8763,'1154','Howard Pk Ave @ Roncesvalles Ave',43.651426,-79.451176
 8764,'5173','Lk Shr Blvd W @ Burlington St',43.617151,-79.487284
@@ -403,12 +403,13 @@
 9071,'6847','Queen St W @ Ossington Ave',43.644283,-79.41869
 9093,'6846','Queen St W @ Ossington Ave',43.64406,-79.418976
 9132,'1155','Howard Pk Ave @ Roncesvalles Ave',43.651592,-79.45081
+9143,'6806','Queen St E @ Kingston Rd',43.667398,-79.312137
 9148,'5193','Lk Shr Blvd W @ Mimico Ave',43.613855,-79.489387
 9183,'3091','Queen St W @ York St',43.651068,-79.385092
 9193,'844','College St @ Spadina Ave',43.658013,-79.399632
 9203,'8129','Spadina Ave @ Queen St W S',43.64822,-79.396223
 9222,'5153','Lk Shr Blvd W @ Thirteenth St',43.599445,-79.511706
-9227,'10935','Union Sta',43.645349,-79.380488
+9227,'10935','Union Sta',43.645641,-79.379223
 9243,'10777','Spadina Ave @ Bremner Blvd N',43.641232,-79.393194
 9255,'6834','Queen St W @ Dufferin St',43.642115,-79.428787
 9300,'2800','Kingston Rd @ Waverley Rd',43.676824,-79.304185
