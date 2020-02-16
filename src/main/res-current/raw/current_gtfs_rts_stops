@@ -161,7 +161,7 @@
 3720,'1761','Broadview Ave @ Millbrook Cres',43.671897,-79.354734
 3741,'8134','Spadina Ave @ Willcocks St',43.66145,-79.401512
 3762,'1083','Gerrard St E @ Carlaw Ave',43.667491,-79.342998
-3797,'1085','Gerrard St E @ Coxwell Ave',43.672746,-79.319561
+3797,'1085','Gerrard St E @ Coxwell Ave',43.672761,-79.319529
 3798,'6852','Queen St W @ Sorauren Ave',43.639824,-79.440785
 3836,'3058','Queen St E @ Logan Ave',43.660394,-79.342681
 3867,'1263','Main St @ Danforth Ave',43.688299,-79.302006
@@ -346,7 +346,7 @@
 8082,'3050','Queen St E @ Jarvis St',43.653602,-79.373383
 8105,'149','Bathurst St @ Harbord St',43.661614,-79.409887
 8135,'836','College St @ Lansdowne Ave',43.651168,-79.439866
-8207,'4140','King St E @ Parliament St',43.652558,-79.363362
+8207,'4140','King St E @ Parliament St',43.652556,-79.363371
 8219,'2790','Kingston Rd @ Rainsford Rd',43.672756,-79.309127
 8223,'9318','Broadview Ave @ Mt Stephen St',43.664096,-79.35214
 8244,'4576','Roncesvalles Ave @ Grenadier Rd',43.648639,-79.449872
@@ -409,7 +409,7 @@
 9193,'844','College St @ Spadina Ave',43.658013,-79.399632
 9203,'8129','Spadina Ave @ Queen St W S',43.64822,-79.396223
 9222,'5153','Lk Shr Blvd W @ Thirteenth St',43.599445,-79.511706
-9227,'10935','Union Sta',43.645641,-79.379223
+9227,'10935','Union Sta',43.645652,-79.37921
 9243,'10777','Spadina Ave @ Bremner Blvd N',43.641232,-79.393194
 9255,'6834','Queen St W @ Dufferin St',43.642115,-79.428787
 9300,'2800','Kingston Rd @ Waverley Rd',43.676824,-79.304185
@@ -476,7 +476,7 @@
 12919,'14509','Fleet St @ Fort York Blvd W',43.636422,-79.407397
 14142,'14619','Bathurst Sta',43.666532,-79.411286
 14161,'14639','Broadview Sta',43.677013,-79.358147
-14186,'14665','Dundas W Sta',43.656665,-79.453601
+14186,'14665','Dundas W Sta',43.656821,-79.453463
 14260,'14741','Main St Sta',43.688861,-79.301804
 14295,'14778','St Clair Sta',43.687857,-79.391958
 14297,'14780','St Clair W Sta',43.684447,-79.415555
@@ -577,4 +577,4 @@
 24086,'15720','Lk Shr Blvd W @ Norris Cres',43.610819,-79.489952
 24087,'15722','Lk Shr Blvd W @ Royal York Rd',43.603544,-79.493189
 24133,'15746','2155 Lk Shr Blvd W',43.626148,-79.479707
-24211,'15824','York St @ King St W N',43.648222,-79.383567
+24211,'15824','York St @ King St W N',43.648231,-79.383573
