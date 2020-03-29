@@ -106,7 +106,6 @@
 2333,'4179','King St W @ Niagara St',43.642987,-79.407539
 2338,'3035','Queen St E @ Carlaw Ave',43.660953,-79.340208
 2350,'757','Carlton St @ Parliament St',43.664144,-79.36819
-2380,'13672','Bathurst St @ Fort York Blvd',43.638684,-79.400466
 2452,'4189','King St W @ Tecumseth St',43.643296,-79.405362
 2462,'4188','King St W @ Strachan Ave',43.642127,-79.411783
 2483,'6637','Parliament St @ Gerrard St E',43.661708,-79.366812
@@ -165,7 +164,7 @@
 3798,'6852','Queen St W @ Sorauren Ave',43.639824,-79.440785
 3836,'3058','Queen St E @ Logan Ave',43.660394,-79.342681
 3867,'1263','Main St @ Danforth Ave',43.688299,-79.302006
-3886,'9317','Broadview Ave @ Mt Stephen St',43.663942,-79.35187
+3886,'9317','Broadview Ave @ Mountstephen St',43.663942,-79.35187
 3896,'6844','Queen St W @ Niagara St',43.645898,-79.410006
 3903,'1081','Gerrard St E @ Broadview Ave',43.665376,-79.352906
 3926,'13369','Queens Quay W @ Dan Leckie Way E',43.636798,-79.396172
@@ -313,7 +312,6 @@
 7412,'6864','Queens Quay W @ Rees St W',43.63876,-79.387157
 7426,'828','College St @ Elizabeth St',43.660394,-79.387562
 7460,'4174','King St W @ Jameson Ave',43.637264,-79.435861
-7478,'100','Bathurst St @ Fort York Blvd',43.638947,-79.400771
 7480,'3060','Queen St E @ Ontario St',43.654914,-79.367262
 7506,'991','Dundas St W @ Sterling Rd',43.650631,-79.443251
 7582,'7355','Spadina Ave @ Queen St W N',43.649178,-79.396495
@@ -348,7 +346,7 @@
 8135,'836','College St @ Lansdowne Ave',43.651168,-79.439866
 8207,'4140','King St E @ Parliament St',43.652556,-79.363371
 8219,'2790','Kingston Rd @ Rainsford Rd',43.672756,-79.309127
-8223,'9318','Broadview Ave @ Mt Stephen St',43.664096,-79.35214
+8223,'9318','Broadview Ave @ Mountstephen St',43.664096,-79.35214
 8244,'4576','Roncesvalles Ave @ Grenadier Rd',43.648639,-79.449872
 8263,'6831','Queen St W @ Dovercourt Rd',43.643394,-79.422528
 8269,'6826','Queen St W @ Augusta Ave',43.647951,-79.399869
@@ -547,6 +545,11 @@
 15143,'15352','King St E @ Ontario St',43.651647,-79.366167
 15145,'15353','King St W @ Joe Shuster Way',43.639591,-79.423721
 15149,'15357','Gerrard St E @ Woodfield Rd',43.671946,-79.323676
+15324,'15498','Fort York Blvd @ Bathurst St W',43.638757,-79.401169
+15325,'15499','Fort York Blvd @ Gzowski Blvd',43.637609,-79.403939
+15326,'15500','Fort York Blvd @ Fleet St',43.636519,-79.406992
+15328,'15502','Fleet St @ Fort York Blvd',43.636282,-79.407391
+15329,'15503','Fort York Blvd @ Bastion St E',43.63749,-79.403513
 15344,'15516','Dufferin St @ King St W',43.638676,-79.42715
 15354,'15460','Cherry St @ Front St E',43.652513,-79.357841
 15355,'15461','Cherry St @ Front St E',43.65284,-79.358092
@@ -571,7 +574,6 @@
 23897,'15650','King St W @ Bathurst St E',43.643941,-79.40203
 23898,'12537','King St E @ Church St E',43.649982,-79.373826
 23899,'12538','King St E @ Church St W',43.64984,-79.374971
-23983,'15684','Dundas St E @ Sumach St W',43.660622,-79.360896
 24057,'15699','Queen St E @ Alton Ave',43.663648,-79.328109
 24085,'15721','Lk Shr Blvd W @ Miles Rd',43.608194,-79.490239
 24086,'15720','Lk Shr Blvd W @ Norris Cres',43.610819,-79.489952
