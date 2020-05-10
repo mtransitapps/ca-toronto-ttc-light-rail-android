@@ -6,7 +6,6 @@
 472,'6523','Humber Loop @ The Queensway',43.631002,-79.47873
 475,'7948','Earlscourt Loop @ St Clair Ave W',43.675983,-79.451027
 478,'10927','Queens Quay Loop @ Lower Spadina Ave',43.638419,-79.39184
-481,'11155','Sunnyside Loop',43.639046,-79.448354
 489,'11845','Queen St E @ Kingston Rd',43.667029,-79.312948
 549,'1262','Main St @ Danforth Ave',43.688037,-79.301635
 553,'13923','Main St @ Gerrard St E',43.684182,-79.300207
@@ -124,7 +123,6 @@
 3206,'847','College St @ University Ave (Queen''s Pk Sta)',43.659697,-79.390773
 3246,'1106','Gerrard St E @ Sackville St',43.662508,-79.364115
 3292,'1093','Gerrard St E @ Jones Ave',43.669327,-79.335419
-3310,'5216','Lansdowne Ave @ Dundas St W',43.650369,-79.439863
 3323,'8120','Spadina Ave @ College St S',43.657372,-79.399868
 3368,'1078','Gerrard St E @ Ashdale Ave',43.672152,-79.322075
 3370,'5172','Lk Shr Blvd W @ 7th St',43.600638,-79.505392
@@ -503,11 +501,13 @@
 15143,'15352','King St E @ Ontario St',43.651647,-79.366167
 15145,'15353','King St W @ Joe Shuster Way',43.639591,-79.423721
 15149,'15357','Gerrard St E @ Woodfield Rd',43.671946,-79.323676
+15323,'15497','Fort York Blvd @ Dan Leckie Way W',43.639353,-79.398467
 15324,'15498','Fort York Blvd @ Bathurst St W',43.638757,-79.401169
 15325,'15499','Fort York Blvd @ Gzowski Blvd',43.637609,-79.403939
 15326,'15500','Fort York Blvd @ Fleet St',43.636519,-79.406992
 15328,'15502','Fleet St @ Fort York Blvd',43.636282,-79.407391
 15329,'15503','Fort York Blvd @ Bastion St E',43.63749,-79.403513
+15331,'15505','Fort York Blvd @ Capreol Ct E',43.63988,-79.395183
 15344,'15516','Dufferin St @ King St W',43.638676,-79.42715
 15354,'15460','Cherry St @ Front St E',43.652513,-79.357841
 15355,'15461','Cherry St @ Front St E',43.65284,-79.358092
