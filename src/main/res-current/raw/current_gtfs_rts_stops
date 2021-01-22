@@ -64,7 +64,7 @@
 1479,'2168','Dundas St W @ Huron St',43.653245,-79.396248
 1480,'2839','Bingham Loop',43.68146,-79.285
 1494,'8149','St Clair Ave W @ Ave Rd E',43.686666,-79.400882
-1551,'10945','Queens Quay Ferry Docks Terminal',43.641806,-79.377186
+1551,'10945','Queens Quay Ferry Docks Term',43.641806,-79.377186
 1566,'812','College St @ Bathurst St',43.65657,-79.407339
 1581,'4139','King St E @ Ontario St',43.651864,-79.365876
 1593,'5156','Lk Shr Blvd W @ Twenty 2nd St',43.597338,-79.521251
@@ -149,7 +149,7 @@
 3164,'1101','Gerrard St E @ Pape Ave',43.668233,-79.340247
 3184,'2118','Dundas St E @ Jarvis St',43.656947,-79.374706
 3196,'6817','Queen St E @ Silver Birch Ave',43.673262,-79.28497
-3206,'847','College St @ University Ave (Queen''S Pk Sta)',43.659697,-79.390773
+3206,'847','College St @ University Ave (Queen''s Pk Sta)',43.659697,-79.390773
 3246,'1106','Gerrard St E @ Sackville St',43.662508,-79.364115
 3281,'2775','Kingston Rd @ Dundas St E',43.670087,-79.311229
 3292,'1093','Gerrard St E @ Jones Ave',43.669327,-79.335419
@@ -273,7 +273,7 @@
 5890,'13890','King St W @ Spencer Ave',43.63831,-79.430761
 5899,'6825','Queen St W @ Abell St',43.642976,-79.424466
 5927,'7357','Spadina Ave @ Sussex Ave',43.664513,-79.40261
-5948,'841','College St @ Queen''S Pk (Queen''S Pk Sta)',43.659999,-79.390138
+5948,'841','College St @ Queen''s Pk (Queen''s Pk Sta)',43.659999,-79.390138
 5988,'2124','Dundas St E @ Parliament St',43.659283,-79.366291
 5993,'753','Carlton St @ Jarvis St',43.662306,-79.376843
 6022,'1120','Gerrard St E @ Golfview Ave',43.681652,-79.30886
@@ -317,7 +317,7 @@
 6830,'5196','Lk Shr Blvd W @ Pk Lawn Rd W',43.622602,-79.481558
 6839,'2136','Dundas St E @ Yonge St (Dundas Sta)',43.656426,-79.380755
 6851,'3084','Queen St W @ John St',43.649947,-79.390954
-6877,'6889','The Queensway @ Glendale Ave (St Joseph''S)',43.639302,-79.451069
+6877,'6889','The Queensway @ Glendale Ave (St Joseph''s)',43.639302,-79.451069
 6902,'3059','Queen St E @ Logan Ave',43.660599,-79.342373
 6953,'8123','Spadina Ave @ Front St W',43.642934,-79.394028
 6955,'1089','Gerrard St E @ Greenwood Ave',43.670802,-79.328156
@@ -423,7 +423,7 @@
 8901,'14280','The Queensway @ Colborne Lodge Dr E',43.639566,-79.458635
 8914,'829','College St @ Elizabeth St',43.660618,-79.387271
 8938,'6909','The Queensway @ Parkside Dr',43.639746,-79.454176
-8941,'6888','The Queensway @ Glendale Ave E (St Joseph''S)',43.639168,-79.450773
+8941,'6888','The Queensway @ Glendale Ave E (St Joseph''s)',43.639168,-79.450773
 8975,'11596','King St W @ Queen St W',43.638535,-79.445759
 8976,'8181','St Clair Ave W @ Russell Hl Rd E',43.685403,-79.407321
 8980,'1800','Coxwell Ave @ Upper Gerrard St E',43.675096,-79.320091
@@ -500,7 +500,7 @@
 10353,'1758','Broadview Ave @ Gerrard St E',43.665663,-79.352794
 10367,'838','College St @ McCaul St',43.659317,-79.393278
 10371,'6801','Queen St E @ Beech Ave',43.672555,-79.287687
-10390,'10946','Queens Quay Ferry Docks Terminal',43.641422,-79.377093
+10390,'10946','Queens Quay Ferry Docks Term',43.641422,-79.377093
 10399,'1063','Manitoba Dr @ Strachan Ave W',43.6363,-79.410411
 10424,'14355','St Clair Ave W @ Spadina Rd W',43.684535,-79.4117
 10438,'14400','King St W @ Joe Shuster Way',43.639804,-79.423411
