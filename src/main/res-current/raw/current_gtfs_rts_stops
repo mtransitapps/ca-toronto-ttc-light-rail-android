@@ -153,9 +153,11 @@
 3246,'1106','Gerrard St E @ Sackville St',43.662508,-79.364115
 3281,'2775','Kingston Rd @ Dundas St E',43.670087,-79.311229
 3292,'1093','Gerrard St E @ Jones Ave',43.669327,-79.335419
+3296,'10116','Marine Parade Dr Loop @ Lk Shr Blvd W',43.622551,-79.480911
 3301,'2767','Kingston Rd @ Beech Ave',43.680314,-79.29052
 3310,'5216','Lansdowne Ave @ Dundas St W',43.650369,-79.439863
 3323,'8120','Spadina Ave @ College St S',43.657372,-79.399868
+3368,'1078','Gerrard St E @ Ashdale Ave',43.672152,-79.322075
 3370,'5172','Lk Shr Blvd W @ 7th St',43.600638,-79.505392
 3374,'6915','The Queensway @ S Kingsway',43.635656,-79.473392
 3384,'3031','Queen St E @ Boulton Ave',43.65966,-79.346553
@@ -431,6 +433,7 @@
 8991,'1108','Gerrard St E @ St Matthews Rd',43.664968,-79.354903
 8998,'13344','King St W @ Sudbury St',43.640853,-79.417479
 8999,'1149','Howard Pk Ave @ Dundas St W',43.651965,-79.448329
+9014,'6650','Parliament St @ Gerrard St E',43.662405,-79.367314
 9016,'2173','Dundas St W @ McCaul St',43.654219,-79.391552
 9032,'2777','Kingston Rd @ Elmer Ave',43.67582,-79.305884
 9043,'3041','Queen St E @ Church St',43.653269,-79.37552
@@ -450,6 +453,7 @@
 9255,'6834','Queen St W @ Dufferin St',43.642115,-79.428787
 9300,'2800','Kingston Rd @ Waverley Rd',43.676824,-79.304185
 9301,'3051','Queen St E @ Jarvis St',43.653797,-79.373076
+9306,'7310','Sherbourne St @ Carlton St',43.66305,-79.372904
 9317,'5158','Lk Shr Blvd W @ Twenty 6th St',43.596668,-79.524268
 9320,'1087','Gerrard St E @ Degrassi St',43.666207,-79.348755
 9321,'824','College St @ Dovercourt Rd',43.653509,-79.426497
