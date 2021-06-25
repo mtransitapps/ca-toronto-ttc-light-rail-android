@@ -155,7 +155,7 @@
 3164,'1101','Gerrard St E @ Pape Ave',43.668233,-79.340247
 3184,'2118','Dundas St E @ Jarvis St',43.656947,-79.374706
 3196,'6817','Queen St E @ Silver Birch Ave',43.673262,-79.28497
-3206,'847','College St @ University Ave (Queen''s Pk Sta)',43.659697,-79.390773
+3206,'847','College St @ University Ave (Queen''S Pk Sta)',43.659697,-79.390773
 3246,'1106','Gerrard St E @ Sackville St',43.662508,-79.364115
 3261,'10229','Parliament St @ Richmond St E',43.654616,-79.364127
 3281,'2775','Kingston Rd @ Dundas St E',43.670087,-79.311229
@@ -163,7 +163,6 @@
 3301,'2767','Kingston Rd @ Beech Ave',43.680314,-79.29052
 3310,'5216','Lansdowne Ave @ Dundas St W',43.650369,-79.439863
 3323,'8120','Spadina Ave @ College St S',43.657372,-79.399868
-3368,'1078','Gerrard St E @ Ashdale Ave',43.672152,-79.322075
 3370,'5172','Lk Shr Blvd W @ 7th St',43.600638,-79.505392
 3374,'6915','The Queensway @ S Kingsway',43.635656,-79.473392
 3384,'3031','Queen St E @ Boulton Ave',43.65966,-79.346553
@@ -285,7 +284,7 @@
 5890,'13890','King St W @ Spencer Ave',43.63831,-79.430761
 5899,'6825','Queen St W @ Abell St',43.642976,-79.424466
 5927,'7357','Spadina Ave @ Sussex Ave',43.664513,-79.40261
-5948,'841','College St @ Queen''s Pk (Queen''s Pk Sta)',43.659999,-79.390138
+5948,'841','College St @ Queen''S Pk (Queen''S Pk Sta)',43.659999,-79.390138
 5988,'2124','Dundas St E @ Parliament St',43.659283,-79.366291
 5993,'753','Carlton St @ Jarvis St',43.662306,-79.376843
 6022,'1120','Gerrard St E @ Golfview Ave',43.681652,-79.30886
@@ -330,7 +329,7 @@
 6830,'5196','Lk Shr Blvd W @ Pk Lawn Rd W',43.622602,-79.481558
 6839,'2136','Dundas St E @ Yonge St (Dundas Sta)',43.656426,-79.380755
 6851,'3084','Queen St W @ John St',43.649947,-79.390954
-6877,'6889','The Queensway @ Glendale Ave (St Joseph''s)',43.639302,-79.451069
+6877,'6889','The Queensway @ Glendale Ave (St Joseph''S)',43.639302,-79.451069
 6902,'3059','Queen St E @ Logan Ave',43.660599,-79.342373
 6953,'8123','Spadina Ave @ Front St W',43.642934,-79.394028
 6955,'1089','Gerrard St E @ Greenwood Ave',43.670802,-79.328156
@@ -438,7 +437,7 @@
 8901,'14280','The Queensway @ Colborne Lodge Dr E',43.639566,-79.458635
 8914,'829','College St @ Elizabeth St',43.660618,-79.387271
 8938,'6909','The Queensway @ Parkside Dr',43.639746,-79.454176
-8941,'6888','The Queensway @ Glendale Ave E (St Joseph''s)',43.639168,-79.450773
+8941,'6888','The Queensway @ Glendale Ave E (St Joseph''S)',43.639168,-79.450773
 8975,'11596','King St W @ Queen St W',43.638535,-79.445759
 8976,'8181','St Clair Ave W @ Russell Hl Rd E',43.685403,-79.407321
 8980,'1800','Coxwell Ave @ Upper Gerrard St E',43.675096,-79.320091
