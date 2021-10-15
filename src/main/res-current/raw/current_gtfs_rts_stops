@@ -7,6 +7,7 @@
 471,'6532','Humber Loop @ The Queensway',43.631119,-79.478867
 475,'7948','Earlscourt Loop @ St Clair Ave W',43.675983,-79.451027
 478,'10927','Queens Quay Loop @ Lower Spadina Ave',43.638419,-79.39184
+481,'11155','Sunnyside Loop',43.639046,-79.448354
 489,'11845','Queen St E @ Kingston Rd',43.667029,-79.312948
 490,'13461','Queen St E @ Kingston Rd',43.667119,-79.31289
 549,'1262','Main St @ Danforth Ave',43.688037,-79.301635
@@ -47,7 +48,6 @@
 1201,'1118','Gerrard St E @ Glenmount Pk Rd',43.682547,-79.306185
 1212,'2190','Dundas St W @ Spadina Ave',43.653064,-79.397708
 1222,'4568','Roncesvalles Ave @ Boustead Ave N',43.653173,-79.451549
-1227,'5200','Opp 2111 Lk Shr Blvd W',43.628942,-79.478392
 1233,'5160','Lk Shr Blvd W @ Twenty 8th St',43.595685,-79.527699
 1258,'5151','Lk Shr Blvd W @ Tenth St',43.600155,-79.508496
 1260,'6810','Queen St E @ Sarah Ashbridge Ave',43.667893,-79.309305
