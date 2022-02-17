@@ -7,7 +7,6 @@
 471,'6532','Humber Loop @ The Queensway',43.631119,-79.478867
 475,'7948','Earlscourt Loop @ St Clair Ave W',43.675983,-79.451027
 478,'10927','Queens Quay Loop @ Lower Spadina Ave',43.638419,-79.39184
-481,'11155','Sunnyside Loop',43.639046,-79.448354
 489,'11845','Queen St E @ Kingston Rd',43.667029,-79.312948
 490,'13461','Queen St E @ Kingston Rd',43.667119,-79.31289
 549,'1262','Main St @ Danforth Ave',43.688037,-79.301635
@@ -51,7 +50,6 @@
 1233,'5160','Lk Shr Blvd W @ Twenty 8th St',43.595685,-79.527699
 1258,'5151','Lk Shr Blvd W @ Tenth St',43.600155,-79.508496
 1260,'6810','Queen St E @ Sarah Ashbridge Ave',43.667893,-79.309305
-1263,'6632','Parliament St @ Adelaide St E',43.653617,-79.363704
 1268,'1123','Gerrard St E @ Kingsmount Pk Rd',43.67986,-79.312662
 1288,'7356','Spadina Ave @ Sullivan St N',43.651288,-79.397326
 1296,'13367','Queens Quay W @ Dan Leckie Way W',43.636492,-79.397299
@@ -125,7 +123,6 @@
 2452,'4189','King St W @ Tecumseth St',43.643296,-79.405362
 2462,'4188','King St W @ Strachan Ave',43.642127,-79.411783
 2483,'6637','Parliament St @ Gerrard St E',43.661708,-79.366812
-2501,'6643','Parliament St @ Queen St E',43.655432,-79.364271
 2568,'823','College St @ Crawford St',43.65523,-79.418874
 2605,'13944','Opp 125 The Queensway',43.630963,-79.481928
 2615,'1107','Gerrard St E @ Sackville St',43.662685,-79.363903
@@ -158,12 +155,12 @@
 3196,'6817','Queen St E @ Silver Birch Ave',43.673262,-79.28497
 3206,'847','College St @ University Ave (Queen''S Pk Sta)',43.659697,-79.390773
 3246,'1106','Gerrard St E @ Sackville St',43.662508,-79.364115
-3261,'10229','Parliament St @ Richmond St E',43.654616,-79.364127
 3281,'2775','Kingston Rd @ Dundas St E',43.670087,-79.311229
 3292,'1093','Gerrard St E @ Jones Ave',43.669327,-79.335419
 3301,'2767','Kingston Rd @ Beech Ave',43.680314,-79.29052
 3310,'5216','Lansdowne Ave @ Dundas St W',43.650369,-79.439863
 3323,'8120','Spadina Ave @ College St S',43.657372,-79.399868
+3368,'1078','Gerrard St E @ Ashdale Ave',43.672152,-79.322075
 3370,'5172','Lk Shr Blvd W @ 7th St',43.600638,-79.505392
 3374,'6915','The Queensway @ S Kingsway',43.635656,-79.473392
 3384,'3031','Queen St E @ Boulton Ave',43.65966,-79.346553
@@ -211,7 +208,6 @@
 4325,'1090','Gerrard St E @ Greenwood Ave',43.671001,-79.327856
 4341,'4166','King St W @ Dufferin St',43.639085,-79.427001
 4342,'6824','Queen St E @ Woodbine Ave',43.668635,-79.305945
-4351,'12168','Charlotte St @ King St W',43.645918,-79.393743
 4364,'11683','Queen St E @ Neville Pk Blvd',43.673616,-79.282531
 4371,'6811','Queen St E @ Lockwood Rd',43.668108,-79.308924
 4389,'178','Bathurst St @ Nassau St (Toronto Western Hosp)',43.654353,-79.406946
@@ -239,7 +235,7 @@
 4698,'9739','Dufferin St @ Melbourne Ave',43.640185,-79.427735
 4705,'1122','Gerrard St E @ Kingsmount Pk Rd',43.679449,-79.312986
 4736,'5187','Lk Shr Blvd W @ Long Branch Ave',43.594303,-79.53413
-4779,'5157','Lk Shr Blvd W @ Twenty 3rd St',43.597116,-79.521413
+4779,'5157','Lk Shr Blvd W @ Twenty 2nd St',43.597116,-79.521413
 4797,'754','Carlton St @ Jarvis St',43.662511,-79.376575
 4859,'2776','Kingston Rd @ Elmer Ave',43.675537,-79.306008
 4861,'2774','Kingston Rd @ Dixon Ave',43.669775,-79.311175
@@ -292,7 +288,6 @@
 6087,'2174','Dundas St W @ McCaul St',43.65441,-79.391209
 6108,'6861','Queen St W @ Yonge St (Queen Sta)',43.652296,-79.379369
 6113,'2032','Dufferin Gt Loop',43.634401,-79.425872
-6122,'6640','Parliament St @ King St E',43.65278,-79.363342
 6129,'2072','Dufferin St @ Liberty St',43.637147,-79.42675
 6145,'7358','Spadina Ave @ Willcocks St',43.661123,-79.401263
 6205,'1757','Broadview Ave @ Gerrard St E',43.665274,-79.352444
@@ -375,7 +370,6 @@
 7898,'2150','Dundas St W @ Bloor St W',43.6561,-79.45233
 7899,'6848','Queen St W @ Palmerston Ave',43.646763,-79.406434
 7913,'755','Carlton St @ Ontario St',43.663621,-79.37064
-7931,'6645','Parliament St @ Richmond St E',43.65445,-79.363856
 7935,'1095','Gerrard St E @ Leslie St',43.66988,-79.332933
 7949,'4573','Roncesvalles Ave @ Galley Ave',43.642982,-79.447845
 7950,'3061','Queen St E @ Ontario St',43.655161,-79.366816
