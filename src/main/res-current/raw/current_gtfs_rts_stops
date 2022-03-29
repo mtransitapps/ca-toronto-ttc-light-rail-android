@@ -10,7 +10,7 @@
 489,'11845','Queen St E @ Kingston Rd',43.667029,-79.312948
 490,'13461','Queen St E @ Kingston Rd',43.667119,-79.31289
 549,'1262','Main St @ Danforth Ave',43.688037,-79.301635
-553,'13923','Main St @ Gerrard St E',43.684182,-79.300207
+552,'1264','Main St @ Gerrard St E',43.684061,-79.300315
 614,'1451','Parliament St @ Carlton St',43.663906,-79.36772
 615,'1452','Parliament St @ Gerrard St E',43.662048,-79.367169
 632,'10210','Fleet St @ Bathurst St',43.63647,-79.400131
@@ -285,7 +285,6 @@
 6046,'2189','Dundas St W @ Spadina Ave',43.652776,-79.398341
 6072,'177','Bathurst St @ Nassau St (Toronto Western Hosp)',43.654168,-79.406669
 6075,'12085','Spadina Ave @ Queens Quay W N',43.638141,-79.39201
-6087,'2174','Dundas St W @ McCaul St',43.65441,-79.391209
 6108,'6861','Queen St W @ Yonge St (Queen Sta)',43.652296,-79.379369
 6113,'2032','Dufferin Gt Loop',43.634401,-79.425872
 6129,'2072','Dufferin St @ Liberty St',43.637147,-79.42675
@@ -516,7 +515,6 @@
 12913,'14508','Fleet St @ Fort York Blvd E',43.636256,-79.406278
 12919,'14509','Fleet St @ Fort York Blvd W',43.636422,-79.407397
 14048,'14536','Strachan Ave @ E Liberty St',43.639439,-79.411078
-14061,'12067','Strachan Ave @ Wellington St W',43.640672,-79.4113
 14142,'14619','Bathurst Sta',43.666532,-79.411286
 14161,'14639','Broadview Sta',43.677013,-79.358147
 14162,'14640','Broadview Sta',43.677134,-79.358206
@@ -620,3 +618,5 @@
 24133,'15746','2155 Lk Shr Blvd W',43.626148,-79.479707
 24273,'15873','Dundas St E @ Regent Pk Blvd',43.660471,-79.361655
 24274,'15872','Dundas St E @ Regent Pk Blvd',43.660247,-79.361966
+24463,'16063','Strachan Ave @ Wellington St W',43.641093,-79.411473
+24464,'16064','Dundas St W @ St Patrick St',43.654566,-79.390141
