@@ -1,5 +1,4 @@
 295,'9856','Dundas St W @ Bloor St W',43.656442,-79.452572
-300,'13702','Dundas St W @ Dundas W Outer Platform',43.656768,-79.453253
 310,'9855','Edna Ave @ Dundas St W',43.657134,-79.453027
 437,'4187','King St W @ Strachan Ave',43.641936,-79.412095
 462,'13366','Exhibition Loop @ Manitoba Dr',43.636511,-79.41471
@@ -122,7 +121,6 @@
 2426,'2159','Dundas St W @ Dovercourt Rd',43.649513,-79.424553
 2452,'4189','King St W @ Tecumseth St',43.643296,-79.405362
 2462,'4188','King St W @ Strachan Ave',43.642127,-79.411783
-2483,'6637','Parliament St @ Gerrard St E',43.661708,-79.366812
 2568,'823','College St @ Crawford St',43.65523,-79.418874
 2605,'13944','Opp 125 The Queensway',43.630963,-79.481928
 2615,'1107','Gerrard St E @ Sackville St',43.662685,-79.363903
@@ -455,6 +453,7 @@
 9255,'6834','Queen St W @ Dufferin St',43.642115,-79.428787
 9300,'2800','Kingston Rd @ Waverley Rd',43.676824,-79.304185
 9301,'3051','Queen St E @ Jarvis St',43.653797,-79.373076
+9306,'7310','Sherbourne St @ Carlton St',43.66305,-79.372904
 9317,'5158','Lk Shr Blvd W @ Twenty 6th St',43.596668,-79.524268
 9320,'1087','Gerrard St E @ Degrassi St',43.666207,-79.348755
 9321,'824','College St @ Dovercourt Rd',43.653509,-79.426497
@@ -466,7 +465,6 @@
 9441,'2785','Kingston Rd @ Main St',43.679023,-79.297762
 9453,'5195','Lk Shr Blvd W @ Pk Lawn Rd',43.62278,-79.481308
 9459,'6849','Queen St W @ Roncesvalles Ave',43.638864,-79.445773
-9500,'6642','Parliament St @ Oak St',43.660599,-79.366381
 9523,'822','College St @ Crawford St',43.655048,-79.419148
 9568,'2172','Dundas St W @ Lisgar St',43.649434,-79.426882
 9607,'6836','Queen St W @ Brock Ave',43.641387,-79.432411
@@ -520,8 +518,6 @@
 14142,'14619','Bathurst Sta',43.666532,-79.411286
 14161,'14639','Broadview Sta',43.677013,-79.358147
 14162,'14640','Broadview Sta',43.677134,-79.358206
-14186,'14665','Dundas W Sta',43.656821,-79.453463
-14216,'14696','High Pk Sta',43.654074,-79.465887
 14260,'14741','Main St Sta',43.688861,-79.301804
 14295,'14778','St Clair Sta',43.687857,-79.391958
 14297,'14780','St Clair W Sta',43.684447,-79.415555
