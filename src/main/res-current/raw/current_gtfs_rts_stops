@@ -207,7 +207,7 @@
 4119,'2783','Kingston Rd @ Lee Ave',43.678324,-79.300903
 4143,'6813','Queen St E @ Neville Pk Blvd',43.673911,-79.281723
 4155,'2125','Dundas St E @ Parliament St',43.65951,-79.365882
-4197,'1760','Broadview Ave @ Langley Ave-Bridgepoint Health Ctr',43.668079,-79.353319
+4197,'1760','Broadview Ave @ Langley Ave-Hennick Bridgepoint Hosp',43.668079,-79.353319
 4223,'5171','Lk Shr Blvd W @ 5th St',43.601388,-79.502863
 4236,'6908','The Queensway @ Parkside Dr',43.639665,-79.453923
 4321,'6912','The Queensway @ Roncesvalles Ave',43.638568,-79.446462
@@ -252,7 +252,7 @@
 4861,'2774','Kingston Rd @ Dixon Ave',43.669775,-79.311175
 4865,'848','College St @ Yonge St - College Sta',43.661259,-79.383245
 4875,'1094','Gerrard St E @ Leslie St',43.669663,-79.333264
-4891,'1759','Broadview Ave @ Langley Ave-Bridgepoint Health Ctr',43.667664,-79.353308
+4891,'1759','Broadview Ave @ Langley Ave-Hennick Bridgepoint Hosp',43.667664,-79.353308
 4902,'990','Dundas St W @ Sterling Rd',43.650684,-79.442777
 4921,'1092','Gerrard St E @ Jones Ave',43.669085,-79.33578
 5020,'6654','Parliament St @ Winchester St',43.665936,-79.368736
@@ -426,7 +426,6 @@
 8560,'4163','King St W @ Shaw St',43.641529,-79.414775
 8564,'5955','Ossington Ave @ Churchill Ave',43.652123,-79.421898
 8597,'2802','Kingston Rd @ Woodbine Ave',43.673673,-79.308088
-8626,'13625','Strachan Ave @ Canniff St',43.641543,-79.411854
 8632,'2120','Dundas St E @ Munro St',43.661937,-79.353136
 8633,'1113','Gerrard St E @ Beaton Ave',43.676047,-79.317086
 8673,'1152','Howard Pk Ave @ Parkside Dr E',43.649054,-79.457394
@@ -539,10 +538,6 @@
 12898,'14512','Fleet St @ Bastion St',43.63585,-79.403771
 12913,'14508','Fleet St @ Fort York Blvd E',43.636256,-79.406278
 12919,'14509','Fleet St @ Fort York Blvd W',43.636422,-79.407397
-14048,'14536','Strachan Ave @ E Liberty St',43.639439,-79.411078
-14049,'14537','E Liberty St @ Pirandello St W',43.638634,-79.414425
-14050,'14538','E Liberty St @ Lynn Williams St',43.638683,-79.416984
-14051,'14539','Liberty St @ Atlantic Ave',43.638372,-79.420366
 14142,'14619','Bathurst Sta',43.666532,-79.411286
 14161,'14639','Broadview Sta',43.677013,-79.358147
 14162,'14640','Broadview Sta',43.677134,-79.358206
@@ -643,7 +638,6 @@
 24273,'15873','Dundas St E @ Regent Pk Blvd',43.660471,-79.361655
 24274,'15872','Dundas St E @ Regent Pk Blvd',43.660247,-79.361966
 24290,'15889','University Ave @ College St - Queen''s Pk Sta',43.659593,-79.390491
-24463,'16063','Strachan Ave @ Wellington St W',43.641093,-79.411473
 24464,'16064','Dundas St W @ St Patrick St',43.654566,-79.390141
 24507,'16266','Gerrard St E @ Ontario St',43.661664,-79.369848
 24508,'16267','Gerrard St E @ Ontario St',43.661888,-79.369648
