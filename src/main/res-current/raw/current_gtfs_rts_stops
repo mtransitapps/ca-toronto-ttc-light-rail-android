@@ -1,6 +1,7 @@
 295,'9856','Dundas St W @ Bloor St W',43.656442,-79.452572,2
 300,'13702','Dundas St W @ Dundas W Outer Platform',43.656768,-79.453253,2
 310,'9855','Edna Ave @ Dundas St W',43.657134,-79.453027,1
+412,'14314','Church St @ Lombard St N',43.652135,-79.375233,2
 437,'4187','King St W @ Strachan Ave',43.641936,-79.412095,1
 462,'13366','Exhibition Loop @ Manitoba Dr',43.636511,-79.41471,2
 463,'12584','Exhibition Loop',43.636331,-79.415373,1
@@ -59,11 +60,13 @@
 1389,'4141','King St E @ Parliament St',43.65291,-79.363021,1
 1398,'4164','King St W @ Dowling Ave',43.636552,-79.438719,2
 1403,'811','College St @ Bathurst St',43.656336,-79.407836,2
+1410,'261','Bay St @ Queen St W',43.651684,-79.381439,1
 1416,'2158','Dundas St W @ Dovercourt Rd',43.649365,-79.424889,2
 1459,'837','College St @ McCaul St',43.659061,-79.393721,2
 1479,'2168','Dundas St W @ Huron St',43.653245,-79.396248,2
 1480,'2839','Bingham Loop',43.68146,-79.285,2
 1494,'8149','St Clair Ave W @ Ave Rd E',43.686666,-79.400882,1
+1520,'2869','McCaul St @ Queen St W',43.650329,-79.389837,2
 1551,'10945','Queens Quay/Ferry Docks Sta',43.641806,-79.377186,1
 1566,'812','College St @ Bathurst St',43.65657,-79.407339,2
 1581,'4139','King St E @ Ontario St',43.651864,-79.365876,1
@@ -280,6 +283,7 @@
 6046,'2189','Dundas St W @ Spadina Ave',43.652776,-79.398341,2
 6072,'177','Bathurst St @ Nassau St - Toronto Western Hosp',43.654168,-79.406669,2
 6075,'12085','Spadina Ave @ Queens Quay W N',43.638141,-79.39201,1
+6087,'2174','Dundas St W @ McCaul St',43.65441,-79.391209,2
 6108,'6861','Queen St W @ Yonge St - Queen Sta',43.652296,-79.379369,1
 6113,'2032','Dufferin Gt Loop',43.634401,-79.425872,1
 6129,'2072','Dufferin St @ Liberty St',43.637147,-79.42675,1
@@ -290,6 +294,8 @@
 6290,'2770','Kingston Rd @ Brookside Dr',43.677113,-79.303837,1
 6319,'6841','Queen St W @ John St',43.649759,-79.391191,1
 6324,'2185','Dundas St W @ Shaw St',43.649703,-79.418489,2
+6336,'803','Church St @ Richmond St E',43.652637,-79.375624,2
+6347,'232','Bay St @ Adelaide St W',43.649997,-79.380909,1
 6387,'830','College St @ Euclid Ave',43.655597,-79.41145,2
 6422,'2161','Dundas St W @ Dufferin St',43.649675,-79.431314,2
 6435,'13946','Lk Shr Blvd W @ 1st St',43.60214,-79.498592,1
@@ -360,6 +366,7 @@
 7801,'1767','Broadview Ave @ Withrow Ave',43.669859,-79.353435,2
 7809,'1763','Broadview Ave @ Jack Layton Way',43.666481,-79.353132,2
 7830,'10152','Queen St W @ Beaty Ave',43.639599,-79.441272,1
+7837,'2870','McCaul St @ Stephanie St',43.651262,-79.390072,2
 7847,'5197','Lk Shr Blvd W @ Royal York Rd',43.603496,-79.493243,1
 7867,'2169','Dundas St W @ Huron St',43.653407,-79.396044,2
 7898,'2150','Dundas St W @ Bloor St W',43.6561,-79.45233,2
@@ -610,11 +617,14 @@
 23897,'15650','King St W @ Bathurst St E',43.643941,-79.40203,1
 23898,'12537','King St E @ Church St E',43.649982,-79.373826,1
 23899,'12538','King St E @ Church St W',43.64984,-79.374971,1
+23909,'15668','Church St @ King St E',43.650362,-79.374497,2
 24057,'15699','Queen St E @ Alton Ave',43.663648,-79.328109,1
 24133,'15746','2155 Lk Shr Blvd W',43.626148,-79.479707,1
 24211,'15824','York St @ King St W N',43.648231,-79.383573,2
 24244,'15845','King St W @ York St W',43.647919,-79.383902,1
 24273,'15873','Dundas St E @ Regent Pk Blvd',43.660471,-79.361655,1
 24274,'15872','Dundas St E @ Regent Pk Blvd',43.660247,-79.361966,1
+24416,'16029','River St @ Dundas St E S',43.660838,-79.358107,1
+24418,'16031','Gerrard St E @ River St',43.663948,-79.358666,1
 24463,'16063','Strachan Ave @ Wellington St W',43.641093,-79.411473,1
 24464,'16064','Dundas St W @ St Patrick St',43.654566,-79.390141,1
