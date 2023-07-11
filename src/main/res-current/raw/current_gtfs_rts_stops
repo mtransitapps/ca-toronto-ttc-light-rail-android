@@ -6,7 +6,6 @@
 437,'4187','King St W @ Strachan Ave',43.641936,-79.412095,1
 462,'13366','Exhibition Loop @ Manitoba Dr',43.636511,-79.41471,2
 463,'12584','Exhibition Loop',43.636331,-79.415373,1
-475,'7948','Earlscourt Loop @ St Clair Ave W',43.675983,-79.451027,2
 477,'4435','Long Branch Loop',43.592111,-79.5437,1
 478,'10927','Queens Quay Loop @ Lower Spadina Ave',43.638419,-79.39184,1
 489,'11845','Queen St E @ Kingston Rd',43.667029,-79.312948,1
@@ -559,7 +558,7 @@
 14339,'14816','Spadina Sta',43.667221,-79.403665,1
 14382,'14889','St Clair Ave W @ Lansdowne Ave E',43.676353,-79.450021,1
 14383,'14887','St Clair Ave W @ Earlscourt Ave E',43.677045,-79.446847,1
-14384,'14885','St Clair Ave W @ Dufferin St W',43.678011,-79.442476,1
+14384,'14885','St Clair Ave W @ Dufferin St E',43.678011,-79.442476,1
 14385,'14883','St Clair Ave W @ Northcliffe Blvd E',43.678485,-79.440298,1
 14386,'14881','St Clair Ave W @ Glenholme Ave E',43.678985,-79.438072,1
 14387,'14879','St Clair Ave W @ Oakwood Ave E',43.679661,-79.43507,1
@@ -578,6 +577,18 @@
 14400,'14888','St Clair Ave W @ Earlscourt Ave',43.677042,-79.447244,1
 14564,'5991','Pape Ave @ Riverdale Ave N',43.671547,-79.341737,1
 14570,'3679','Greenwood Ave @ Ivy Ave',43.673245,-79.328865,2
+14665,'13173','St Clair Ave W @ Lansdowne Ave W',43.676186,-79.451121,1
+14666,'14931','St Clair Ave W @ Caledonia Rd E',43.675437,-79.454201,1
+14667,'14932','St Clair Ave W @ Caledonia Rd W',43.675275,-79.455281,1
+14668,'14933','St Clair Ave W @ Laughton Ave E',43.67479,-79.457079,1
+14669,'14934','St Clair Ave W @ Laughton Ave W',43.674639,-79.458176,1
+14670,'14935','St Clair Ave W @ Hounslow Heath Rd E',43.674274,-79.459436,1
+14671,'14936','St Clair Ave W @ Silverthorn Ave W',43.674107,-79.460547,1
+14672,'14937','St Clair Ave W @ Old Weston Rd E',43.673599,-79.462439,1
+14673,'14938','St Clair Ave W @ Old Weston Rd W',43.673427,-79.463578,1
+14674,'14939','St Clair Ave W @ Keele St/ Weston Rd',43.672451,-79.467842,1
+14675,'14940','St Clair Ave W @ Weston Rd/ Keele St W',43.672435,-79.468189,1
+14688,'14958','Gunns Loop @ St Clair Ave W',43.671912,-79.471837,1
 14701,'14977','Queen St W @ Dufferin St W',43.642145,-79.429333,1
 14726,'14992','Roncesvalles Ave @ Marion St S',43.640654,-79.446945,2
 14727,'14993','Roncesvalles Ave @ High Pk Blvd S',43.645921,-79.448985,2
@@ -586,6 +597,7 @@
 14807,'15038','Roncesvalles Ave @ Marion St N',43.641432,-79.447086,2
 14808,'15039','Roncesvalles Ave @ Howard Pk Ave S',43.650939,-79.450927,2
 14837,'15059','Roncesvalles Ave @ Queen St W N',43.639232,-79.44617,2
+14838,'15050','St Clair Ave W @ Old Stock Yards Rd',43.671859,-79.470488,1
 15016,'15190','Exhibition Loop',43.635874,-79.417054,1
 15033,'15218','Parliament St @ Dundas St E',43.65935,-79.365861,2
 15048,'15224','Bathurst St @ Niagara St',43.641779,-79.401753,2
@@ -640,6 +652,7 @@
 23909,'15668','Church St @ King St E',43.650362,-79.374497,2
 24057,'15699','Queen St E @ Alton Ave',43.663648,-79.328109,1
 24133,'15746','2155 Lk Shr Blvd W',43.626148,-79.479707,1
+24211,'15824','York St @ King St W N',43.648231,-79.383573,2
 24233,'15838','University Ave @ Adelaide St W',43.648966,-79.385738,1
 24244,'15845','King St W @ York St W',43.647919,-79.383902,1
 24273,'15873','Dundas St E @ Regent Pk Blvd',43.660471,-79.361655,1
