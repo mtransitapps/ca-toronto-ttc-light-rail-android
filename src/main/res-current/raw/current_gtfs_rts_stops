@@ -5,9 +5,9 @@
 437,'4187','King St W @ Strachan Ave',43.641936,-79.412095,1
 462,'13366','Exhibition Loop @ Manitoba Dr',43.636511,-79.41471,2
 463,'12584','Exhibition Loop',43.636331,-79.415373,1
+472,'6523','Humber Loop @ The Queensway',43.631002,-79.47873,1
 477,'4435','Long Branch Loop',43.592111,-79.5437,1
 478,'10927','Queens Quay Loop @ Lower Spadina Ave',43.638419,-79.39184,1
-481,'11155','Sunnyside Loop',43.639046,-79.448354,2
 489,'11845','Queen St E @ Kingston Rd',43.667029,-79.312948,1
 490,'13461','Queen St E @ Kingston Rd',43.667119,-79.31289,2
 549,'1262','Main St @ Danforth Ave',43.688037,-79.301635,2
@@ -56,6 +56,7 @@
 1201,'1118','Gerrard St E @ Glenmount Pk Rd',43.682547,-79.306185,2
 1212,'2190','Dundas St W @ Spadina Ave',43.653064,-79.397708,2
 1222,'4568','Roncesvalles Ave @ Boustead Ave N',43.653173,-79.451549,2
+1227,'5200','Opp 2111 Lk Shr Blvd W',43.628942,-79.478392,1
 1233,'5160','Lk Shr Blvd W @ Twenty 8th St',43.595685,-79.527699,1
 1258,'5151','Lk Shr Blvd W @ Tenth St',43.600155,-79.508496,1
 1260,'6810','Queen St E @ Sarah Ashbridge Ave',43.667893,-79.309305,1
@@ -90,6 +91,7 @@
 1737,'5162','Lk Shr Blvd W @ Thirtieth St',43.595472,-79.52966,1
 1739,'3030','Queen St E @ Jones Ave',43.662578,-79.332925,1
 1744,'3034','Queen St E @ Brooklyn Ave',43.662069,-79.335808,1
+1750,'5511','Long Branch Loop',43.591811,-79.544124,1
 1782,'10151','College St @ Major St',43.657551,-79.402667,2
 1810,'2796','Kingston Rd @ Southwood Dr',43.678753,-79.298363,1
 1838,'8175','St Clair Ave W @ Northcliffe Blvd',43.678272,-79.440957,1
@@ -173,6 +175,7 @@
 3323,'8120','Spadina Ave @ College St S',43.657372,-79.399868,1
 3341,'4851','235 Carlaw Ave',43.663313,-79.340911,1
 3370,'5172','Lk Shr Blvd W @ 7th St',43.600638,-79.505392,1
+3374,'6915','The Queensway @ S Kingsway',43.635656,-79.473392,1
 3384,'3031','Queen St E @ Boulton Ave',43.65966,-79.346553,1
 3385,'3029','Queen St E @ Alton Ave',43.66388,-79.327688,1
 3399,'6856','Queen St W @ Tecumseth St',43.646569,-79.406716,1
@@ -185,6 +188,7 @@
 3548,'760','Carlton St @ Yonge St - College Sta',43.66144,-79.382912,1
 3567,'1112','Gerrard St E @ Woodfield Rd',43.671677,-79.324168,2
 3575,'3082','Queen St W @ Bay St',43.651714,-79.382149,1
+3576,'5506','Humber Loop @ The Queensway',43.631194,-79.478505,1
 3577,'3036','Queen St E @ Carlaw Ave',43.661142,-79.339954,1
 3624,'3080','Queen St W @ Augusta Ave',43.648153,-79.399534,1
 3665,'2140','Dundas St W @ Bathurst St - Toronto Western Hosp',43.652163,-79.406259,2
@@ -395,6 +399,7 @@
 7733,'1098','Gerrard St E @ Marjory Ave',43.668684,-79.337632,2
 7734,'1062','Fleet St @ Strachan Ave',43.636172,-79.410145,1
 7795,'2782','Kingston Rd @ Lee Ave',43.678012,-79.301308,1
+7813,'6916','The Queensway @ S Kingsway',43.635819,-79.473052,1
 7830,'10152','Queen St W @ Beaty Ave',43.639599,-79.441272,1
 7837,'2870','McCaul St @ Stephanie St',43.651262,-79.390072,2
 7847,'5197','Lk Shr Blvd W @ Royal York Rd',43.603496,-79.493243,1
@@ -534,6 +539,7 @@
 10390,'10946','Queens Quay/Ferry Docks Sta',43.641422,-79.377093,1
 10399,'1063','Manitoba Dr @ Strachan Ave W',43.6363,-79.410411,1
 10438,'14400','King St W @ Joe Shuster Way',43.639804,-79.423411,2
+10441,'14395','The Queensway @ Windermere Ave W',43.637125,-79.470625,1
 10444,'14394','The Queensway @ Ellis Ave W',43.637677,-79.467157,1
 10453,'14356','St Clair Ave W @ Vaughan Rd W',43.682752,-79.420698,1
 10459,'14347','St Clair Ave W @ Deer Pk Cres',43.687154,-79.398239,1
@@ -620,6 +626,9 @@
 23899,'12538','King St E @ Church St W',43.64984,-79.374971,1
 23909,'15668','Church St @ King St E',43.650362,-79.374497,2
 24057,'15699','Queen St E @ Alton Ave',43.663648,-79.328109,1
+24085,'15721','Lk Shr Blvd W @ Miles Rd',43.608194,-79.490239,1
+24086,'15720','Lk Shr Blvd W @ Norris Cres',43.610819,-79.489952,1
+24087,'15722','Lk Shr Blvd W @ Royal York Rd',43.603544,-79.493189,2
 24133,'15746','2155 Lk Shr Blvd W',43.626148,-79.479707,1
 24244,'15845','King St W @ York St W',43.647919,-79.383902,1
 24273,'15873','Dundas St E @ Regent Pk Blvd',43.660471,-79.361655,1
@@ -630,6 +639,6 @@
 24570,'15444','Carlaw Ave @ Langley Ave',43.669636,-79.34346,1
 24597,'16348','Gunns Rd @ Tarragona Blvd S',43.672205,-79.4714,1
 24601,'12314','Church St @ Queen St E',43.653061,-79.375613,1
-24604,'16354','Queen St E @ Bay St W',43.65186,-79.382223,1
+24604,'16354','Queen St W @ Bay St W',43.65186,-79.382223,1
 24633,'16371','St.Clair W Sta',43.683705,-79.415107,1
 24634,'16372','St.Clair W Sta',43.683866,-79.415157,1
