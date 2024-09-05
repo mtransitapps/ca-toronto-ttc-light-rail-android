@@ -1,12 +1,17 @@
 package org.mtransit.parser.ca_toronto_ttc_light_rail;
 
+import static org.mtransit.parser.Constants.EMPTY;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.mtransit.commons.CleanUtils;
 import org.mtransit.commons.StringUtils;
 import org.mtransit.commons.TorontoTTCCommons;
 import org.mtransit.parser.DefaultAgencyTools;
+import org.mtransit.parser.gtfs.data.GRoute;
 import org.mtransit.parser.gtfs.data.GRouteType;
+import org.mtransit.parser.gtfs.data.GStopTime;
+import org.mtransit.parser.gtfs.data.GTrip;
 import org.mtransit.parser.mt.data.MAgency;
 import org.mtransit.parser.mt.data.MTrip;
 
@@ -15,9 +20,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
-import static org.mtransit.parser.Constants.EMPTY;
-
-// https://open.toronto.ca/dataset/ttc-routes-and-schedules/
+// https://open.toronto.ca/dataset/ttc-routes-and-schedules/ # ALL (including SUBWAY)
+// https://open.toronto.ca/dataset/surface-routes-and-schedules-for-bustime/ BUS & STREETCAR
 // OLD: http://opendata.toronto.ca/TTC/routes/OpenData_TTC_Schedules.zip
 public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 
@@ -34,6 +38,24 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 	@Override
 	public boolean defaultExcludeEnabled() {
 		return true;
+	}
+
+	private static final Pattern NOT_IN_SERVICE_ = Pattern.compile("(Not In Service)", Pattern.CASE_INSENSITIVE);
+
+	@Override
+	public boolean excludeTrip(@NotNull GTrip gTrip) {
+		if (NOT_IN_SERVICE_.matcher(gTrip.getTripHeadsignOrDefault()).matches()) {
+			return EXCLUDE;
+		}
+		return super.excludeTrip(gTrip);
+	}
+
+	@Override
+	public boolean excludeStopTime(@NotNull GStopTime gStopTime) {
+		if (NOT_IN_SERVICE_.matcher(gStopTime.getStopHeadsignOrDefault()).matches()) {
+			return EXCLUDE;
+		}
+		return super.excludeStopTime(gStopTime);
 	}
 
 	@NotNull
@@ -73,6 +95,11 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 	public String cleanRouteLongName(@NotNull String routeLongName) {
 		routeLongName = CleanUtils.toLowerCaseUpperCaseWords(getFirstLanguageNN(), routeLongName);
 		return CleanUtils.cleanLabel(routeLongName);
+	}
+
+	@Override
+	public @NotNull String getAgencyColor() {
+		return TorontoTTCCommons.TTC_RED;
 	}
 
 	@Override
@@ -140,20 +167,28 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 
 	@NotNull
 	@Override
-	public String cleanDirectionHeadsign(boolean fromStopName, @NotNull String directionHeadSign) {
+	public String cleanDirectionHeadsign(int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
 		directionHeadSign = STARTS_WITH_DASH_.matcher(directionHeadSign).replaceAll(EMPTY); // keep East/West/North/South
 		directionHeadSign = CleanUtils.toLowerCaseUpperCaseWords(Locale.ENGLISH, directionHeadSign);
 		return CleanUtils.cleanLabel(directionHeadSign);
 	}
 
-	private static final Pattern KEEP_LETTER_AND_TOWARDS_ = Pattern.compile("(^(([a-z]+) - )?([\\d]+(/[\\d]+)?)([a-z]?)( (.*) towards)? (.*))", Pattern.CASE_INSENSITIVE);
-	private static final String KEEP_LETTER_AND_TOWARDS_REPLACEMENT = "$6 $9";
+	private static final Pattern KEEP_LETTER_AND_TOWARDS_ = Pattern.compile("(^" +
+			"(([a-z]+) - )?" + // EAST/WEST/NORTH/SOUTH -
+			"(\\d+(/\\d+)?)?" + // 000(/000?)
+			"([a-z] )?" + // A (from 000A) <- KEEP 'A'
+			"((.*)" + // before to/towards
+			"\\s*(towards|to))? " +
+			"(.*)" + // after to/towards <- KEEP
+			")", Pattern.CASE_INSENSITIVE);
+	private static final String KEEP_LETTER_AND_TOWARDS_REPLACEMENT = "$6$10";
 
 	private static final Pattern ENDS_EXTRA_FARE_REQUIRED = Pattern.compile("(( -)? extra fare required .*$)", Pattern.CASE_INSENSITIVE);
 
 	private static final Pattern REPLACEMENT_BUS_ = CleanUtils.cleanWords("replacement bus");
 
 	private static final Pattern SHORT_TURN_ = CleanUtils.cleanWords("short turn");
+	private static final Pattern BLUE_NIGHT_ = CleanUtils.cleanWords("blue night");
 
 	private static final Pattern STATION_ = CleanUtils.cleanWord("station");
 
@@ -164,9 +199,9 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		tripHeadsign = ENDS_EXTRA_FARE_REQUIRED.matcher(tripHeadsign).replaceAll(EMPTY);
 		tripHeadsign = REPLACEMENT_BUS_.matcher(tripHeadsign).replaceAll(EMPTY);
 		tripHeadsign = SHORT_TURN_.matcher(tripHeadsign).replaceAll(EMPTY);
+		tripHeadsign = BLUE_NIGHT_.matcher(tripHeadsign).replaceAll(EMPTY);
 		tripHeadsign = CleanUtils.removeVia(tripHeadsign);
 		tripHeadsign = CleanUtils.toLowerCaseUpperCaseWords(Locale.ENGLISH, tripHeadsign);
-		tripHeadsign = STATION_.matcher(tripHeadsign).replaceAll(EMPTY);
 		tripHeadsign = CleanUtils.fixMcXCase(tripHeadsign);
 		tripHeadsign = CleanUtils.CLEAN_AT.matcher(tripHeadsign).replaceAll(CleanUtils.CLEAN_AT_REPLACEMENT);
 		tripHeadsign = CleanUtils.CLEAN_AND.matcher(tripHeadsign).replaceAll(CleanUtils.CLEAN_AND_REPLACEMENT);
@@ -175,6 +210,24 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		return CleanUtils.cleanLabel(tripHeadsign);
 	}
 
+	private static Pattern makeRSN_RLN_(@NotNull String rsn, @NotNull String rln) {
+		return Pattern.compile(
+				"(" +
+						"(\\d+(/\\d+)?)" + // 000(/000?)
+						"([a-z] )?" + // A (from 000A)
+						"(\\s*(" + rln + ")\\s*)?" +
+						")",
+				Pattern.CASE_INSENSITIVE);
+	}
+
+	private static final String RSN_RLN_REPLACEMENT = "$4";
+
+	@Override
+	public @NotNull String cleanStopHeadSign(@NotNull GRoute gRoute, @NotNull GTrip gTrip, @NotNull GStopTime gStopTime, @NotNull String stopHeadsign) {
+		stopHeadsign = makeRSN_RLN_(gRoute.getRouteShortName(), gRoute.getRouteLongNameOrDefault())
+				.matcher(stopHeadsign).replaceAll(RSN_RLN_REPLACEMENT);
+		return super.cleanStopHeadSign(gRoute, gTrip, gStopTime, stopHeadsign);
+	}
 	private static final Pattern SIDE = Pattern.compile("((^|\\W)(side)(\\W|$))", Pattern.CASE_INSENSITIVE);
 	private static final String SIDE_REPLACEMENT = "$2" + "$4";
 

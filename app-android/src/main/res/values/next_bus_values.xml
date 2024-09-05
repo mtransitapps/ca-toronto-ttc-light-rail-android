@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <integer name="next_bus_db_version">2</integer>
+    <integer name="next_bus_db_version">3</integer>
     <string name="next_bus_agency_tag">ttc</string>
     <string name="next_bus_for_poi_authority">@string/gtfs_rts_authority</string>
     <bool name="next_bus_use_stop_code_as_stop_id">true</bool>
@@ -16,8 +16,8 @@
     <string-array name="next_bus_stop_tag_clean_replacement" />
     <bool name="next_bus_schedule_head_sign_clean_street_types">true</bool>
     <bool name="next_bus_schedule_head_sign_clean_street_types_fr_ca">false</bool>
-    <string-array name="next_bus_schedule_head_sign_clean_regex"></string-array>
-    <string-array name="next_bus_schedule_head_sign_clean_replacement"></string-array>
+    <string-array name="next_bus_schedule_head_sign_clean_regex" />
+    <string-array name="next_bus_schedule_head_sign_clean_replacement" />
     <integer name="next_bus_schedule_head_sign_use_predictions_route_title">0</integer> <!-- FALSE -->
     <string-array name="next_bus_schedule_head_sign_predictions_route_title_regex" />
     <string-array name="next_bus_schedule_head_sign_predictions_route_title_replacement" />
