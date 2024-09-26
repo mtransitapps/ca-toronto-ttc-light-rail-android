@@ -190,8 +190,6 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 	private static final Pattern SHORT_TURN_ = CleanUtils.cleanWords("short turn");
 	private static final Pattern BLUE_NIGHT_ = CleanUtils.cleanWords("blue night");
 
-	private static final Pattern STATION_ = CleanUtils.cleanWord("station");
-
 	@NotNull
 	@Override
 	public String cleanTripHeadsign(@NotNull String tripHeadsign) {
@@ -228,6 +226,7 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 				.matcher(stopHeadsign).replaceAll(RSN_RLN_REPLACEMENT);
 		return super.cleanStopHeadSign(gRoute, gTrip, gStopTime, stopHeadsign);
 	}
+
 	private static final Pattern SIDE = Pattern.compile("((^|\\W)(side)(\\W|$))", Pattern.CASE_INSENSITIVE);
 	private static final String SIDE_REPLACEMENT = "$2" + "$4";
 
