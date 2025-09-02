@@ -6,5 +6,5 @@
     <integer name="gtfs_rts_agency_type">0</integer>
     <integer name="gtfs_rts_agency_extended_type">900</integer>
     <string name="gtfs_rts_timezone">America/Toronto</string>
-    <string name="gtfs_rts_color">DA291C</string>
+    <string name="gtfs_rts_color">ED1C24</string>
 </resources>
