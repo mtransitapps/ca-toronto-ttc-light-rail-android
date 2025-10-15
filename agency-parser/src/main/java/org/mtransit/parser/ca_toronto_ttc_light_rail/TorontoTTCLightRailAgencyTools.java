@@ -10,10 +10,11 @@ import org.mtransit.commons.TorontoTTCCommons;
 import org.mtransit.parser.DefaultAgencyTools;
 import org.mtransit.parser.gtfs.data.GRoute;
 import org.mtransit.parser.gtfs.data.GRouteType;
+import org.mtransit.parser.gtfs.data.GStop;
 import org.mtransit.parser.gtfs.data.GStopTime;
 import org.mtransit.parser.gtfs.data.GTrip;
 import org.mtransit.parser.mt.data.MAgency;
-import org.mtransit.parser.mt.data.MTrip;
+import org.mtransit.parser.mt.data.MDirection;
 
 import java.util.Collections;
 import java.util.List;
@@ -22,7 +23,7 @@ import java.util.regex.Pattern;
 
 // https://open.toronto.ca/dataset/ttc-routes-and-schedules/ # ALL (including SUBWAY)
 // https://open.toronto.ca/dataset/surface-routes-and-schedules-for-bustime/ BUS & STREETCAR
-// http://opendata.toronto.ca/toronto.transit.commission/ttc-routes-and-schedules/SurfaceGTFS.zip
+// OLD: https://opendata.toronto.ca/toronto.transit.commission/ttc-routes-and-schedules/SurfaceGTFS.zip
 // OLD: http://opendata.toronto.ca/TTC/routes/OpenData_TTC_Schedules.zip
 // OLD: http://opendata.toronto.ca/toronto.transit.commission/ttc-routes-and-schedules/OpenData_TTC_Schedules.zip
 public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
@@ -35,11 +36,6 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 	@Override
 	public List<Locale> getSupportedLanguages() {
 		return LANG_EN;
-	}
-
-	@Override
-	public boolean defaultExcludeEnabled() {
-		return true;
 	}
 
 	private static final Pattern NOT_IN_SERVICE_ = Pattern.compile("(Not In Service)", Pattern.CASE_INSENSITIVE);
@@ -96,7 +92,7 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 	@Override
 	public String cleanRouteLongName(@NotNull String routeLongName) {
 		routeLongName = CleanUtils.toLowerCaseUpperCaseWords(getFirstLanguageNN(), routeLongName);
-		return CleanUtils.cleanLabel(routeLongName);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), routeLongName);
 	}
 
 	@Override
@@ -123,7 +119,7 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 	@Override
 	public List<Integer> getDirectionTypes() {
 		return Collections.singletonList(
-				MTrip.HEADSIGN_TYPE_DIRECTION
+				MDirection.HEADSIGN_TYPE_DIRECTION
 		);
 	}
 
@@ -172,7 +168,7 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 	public String cleanDirectionHeadsign(int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
 		directionHeadSign = STARTS_WITH_DASH_.matcher(directionHeadSign).replaceAll(EMPTY); // keep East/West/North/South
 		directionHeadSign = CleanUtils.toLowerCaseUpperCaseWords(Locale.ENGLISH, directionHeadSign);
-		return CleanUtils.cleanLabel(directionHeadSign);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), directionHeadSign);
 	}
 
 	private static final Pattern KEEP_LETTER_AND_TOWARDS_ = Pattern.compile("(^" +
@@ -207,10 +203,10 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		tripHeadsign = CleanUtils.CLEAN_AND.matcher(tripHeadsign).replaceAll(CleanUtils.CLEAN_AND_REPLACEMENT);
 		tripHeadsign = CleanUtils.cleanStreetTypes(tripHeadsign);
 		tripHeadsign = CleanUtils.cleanNumbers(tripHeadsign);
-		return CleanUtils.cleanLabel(tripHeadsign);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), tripHeadsign);
 	}
 
-	private static Pattern makeRSN_RLN_(@NotNull String rsn, @NotNull String rln) {
+	private static Pattern makeRSN_RLN_(@NotNull String rln) {
 		return Pattern.compile(
 				"(" +
 						"(\\d+(/\\d+)?)" + // 000(/000?)
@@ -224,7 +220,7 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 
 	@Override
 	public @NotNull String cleanStopHeadSign(@NotNull GRoute gRoute, @NotNull GTrip gTrip, @NotNull GStopTime gStopTime, @NotNull String stopHeadsign) {
-		stopHeadsign = makeRSN_RLN_(gRoute.getRouteShortName(), gRoute.getRouteLongNameOrDefault())
+		stopHeadsign = makeRSN_RLN_(gRoute.getRouteLongNameOrDefault())
 				.matcher(stopHeadsign).replaceAll(RSN_RLN_REPLACEMENT);
 		return super.cleanStopHeadSign(gRoute, gTrip, gStopTime, stopHeadsign);
 	}
@@ -245,6 +241,15 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		gStopName = CleanUtils.fixMcXCase(gStopName);
 		gStopName = CleanUtils.cleanStreetTypes(gStopName);
 		gStopName = CleanUtils.cleanNumbers(gStopName);
-		return CleanUtils.cleanLabel(gStopName);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), gStopName);
+	}
+
+	@Override
+	public boolean excludeStop(@NotNull GStop gStop) {
+		//noinspection DiscouragedApi
+		if (gStop.getStopId().equals(gStop.getStopCode())) {
+			return EXCLUDE; // 2025-10-15: merged GTFS > multiple stops with same ID (different code)
+		}
+		return super.excludeStop(gStop);
 	}
 }
