@@ -15,6 +15,7 @@ import org.mtransit.parser.gtfs.data.GStopTime;
 import org.mtransit.parser.gtfs.data.GTrip;
 import org.mtransit.parser.mt.data.MAgency;
 import org.mtransit.parser.mt.data.MDirection;
+import org.mtransit.parser.mt.data.MDirectionCardinalType;
 
 import java.util.Collections;
 import java.util.List;
@@ -160,6 +161,19 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 			return headSign2;
 		}
 		return null;
+	}
+
+	@Override
+	public @Nullable MDirectionCardinalType convertDirection(@Nullable String headSign) {
+		if (headSign != null) {
+			switch (headSign.toLowerCase(Locale.ROOT)) {
+			case "line 6 finch west towards finch west station":
+				return MDirectionCardinalType.EAST;
+			case "line 6 finch west towards humber college":
+				return MDirectionCardinalType.WEST;
+			}
+		}
+		return super.convertDirection(headSign);
 	}
 
 	private static final Pattern STARTS_WITH_DASH_ = Pattern.compile("((?<=[A-Z]{4,5}) - .*$)", Pattern.CASE_INSENSITIVE);
