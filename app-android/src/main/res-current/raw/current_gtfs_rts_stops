@@ -1,8 +1,8 @@
 24,'6864','Queens Quay W @ Rees St W',43.63876,-79.38716,1,1602
+36,'828','College St @ Elizabeth St',43.66039,-79.38756,2,1635
 68,'4174','King St W @ Jameson Ave',43.63726,-79.43584,2,1730
 84,'100','Bathurst St @ Fort York Blvd',43.63895,-79.40077,2,1788
 86,'3060','Queen St E @ Ontario St',43.65491,-79.36726,1,1790
-110,'242','Bay St @ Dundas St W',43.65583,-79.38388,1,48656
 111,'991','Dundas St W @ Sterling Rd',43.65063,-79.44325,2,48657
 179,'7355','Spadina Ave @ Queen St W N',43.64918,-79.39650,1,48851
 206,'5167','Lk Shr Blvd W @ 3rd St',43.60165,-79.50087,1,49592
@@ -26,7 +26,6 @@
 511,'4573','Roncesvalles Ave @ Galley Ave',43.64298,-79.44785,2,52501
 512,'3061','Queen St E @ Ontario St',43.65516,-79.36682,1,52502
 519,'2766','Kingston Rd @ Beech Ave',43.68016,-79.29089,1,52509
-527,'245','Bay St @ Elm St',43.65739,-79.38452,1,52538
 540,'814','College St @ Bay St',43.66092,-79.38557,2,52593
 542,'5182','Lk Shr Blvd W @ Colonel Samuel Smith Pk Dr',43.59805,-79.51718,1,52595
 610,'1119','Gerrard St E @ Glenmount Pk Rd',43.68277,-79.30585,2,53461
@@ -77,6 +76,7 @@
 1345,'14345','St Clair Ave W @ Yonge St W',43.68801,-79.39461,2,1510435
 1350,'3057','Queen St E @ Leslie St',43.66333,-79.33011,1,1510461
 1367,'14280','The Queensway @ Colborne Lodge Dr E',43.63957,-79.45864,1,1510499
+1379,'829','College St @ Elizabeth St',43.66062,-79.38727,2,1510532
 1401,'6888','The Queensway @ Glendale Ave E - St Joseph''s Health',43.63917,-79.45077,1,1511268
 1431,'11596','King St W @ Queen St W',43.63854,-79.44576,2,1511361
 1432,'8181','St Clair Ave W @ Russell Hl Rd E',43.68540,-79.40732,2,1511362
@@ -95,6 +95,7 @@
 1569,'1155','Howard Pk Ave @ Roncesvalles Ave',43.65159,-79.45081,2,1512423
 1580,'6806','Queen St E @ Kingston Rd',43.66740,-79.31214,1,1512476
 1585,'5193','Lk Shr Blvd W @ Mimico Ave',43.61386,-79.48939,1,1512481
+1624,'844','College St @ Spadina Ave',43.65801,-79.39963,2,1513255
 1634,'8129','Spadina Ave @ Queen St W S',43.64822,-79.39622,1,1513286
 1652,'5153','Lk Shr Blvd W @ Thirteenth St',43.59944,-79.51171,1,1513346
 1656,'10935','Union Sta Streetcar Platform',43.64564,-79.37922,1,1513350
@@ -148,6 +149,7 @@
 2652,'4582','Roncesvalles Ave @ Queen St W',43.63893,-79.44629,2,1543137
 2663,'111','Bathurst St @ College St',43.65663,-79.40786,2,1543169
 2673,'1758','Broadview Ave @ Gerrard St E',43.66566,-79.35279,2,1543200
+2687,'838','College St @ McCaul St',43.65932,-79.39328,2,1543235
 2691,'6801','Queen St E @ Beech Ave',43.67256,-79.28769,1,1543260
 2708,'10946','Queens Quay/Ferry Docks Sta',43.64142,-79.37709,1,1543949
 2715,'1063','Manitoba Dr @ Strachan Ave W',43.63630,-79.41041,1,1543977
@@ -287,6 +289,7 @@
 5309,'4164','King St W @ Dowling Ave',43.63655,-79.43872,2,1629479
 5314,'811','College St @ Bathurst St',43.65634,-79.40784,2,1629505
 5326,'2158','Dundas St W @ Dovercourt Rd',43.64937,-79.42489,2,1629538
+5365,'837','College St @ McCaul St',43.65906,-79.39372,2,1629661
 5382,'2839','Bingham Loop',43.68146,-79.28500,2,1629720
 5395,'8149','St Clair Ave W @ Ave Rd E',43.68667,-79.40088,2,1629754
 5443,'10945','Queens Quay/Ferry Docks Sta',43.64181,-79.37719,2,1630558
@@ -327,7 +330,6 @@
 6004,'2151','Dundas St W @ Brock Ave',43.64985,-79.43573,2,1656382
 6009,'127','Bathurst St @ Dundas St W - Toronto Western Hosp',43.65248,-79.40619,2,1656387
 6015,'8160','St Clair Ave W @ Deer Pk Cres E',43.68734,-79.39745,2,1656414
-6026,'249','Bay St @ Gerrard St W',43.65860,-79.38502,1,1656446
 6038,'839','College St @ Ossington Ave',43.65426,-79.42294,2,1656479
 6041,'11021','King St W @ Sudbury St',43.64106,-79.41718,2,1656503
 6058,'987','Dundas St W @ Sorauren Ave',43.65125,-79.44576,2,1656541
@@ -350,6 +352,7 @@
 6451,'1109','Gerrard St E @ Sumach St',43.66306,-79.36160,2,1660378
 6478,'2131','Dundas St E @ Sherbourne St',43.65841,-79.37088,2,1660447
 6502,'759','Carlton St @ Sherbourne St',43.66329,-79.37290,2,1661185
+6512,'815','College St @ Beverley St',43.65855,-79.39637,2,1661216
 6513,'2122','Dundas St E @ Ontario St',43.65875,-79.36865,2,1661217
 6561,'3371','Broadview Ave @ Danforth Ave',43.67634,-79.35904,2,1661370
 6615,'2142','Dundas St W @ Bay St',43.65558,-79.38401,2,1662180
@@ -369,6 +372,7 @@
 6896,'1101','Gerrard St E @ Pape Ave',43.66823,-79.34025,2,1664351
 6913,'2118','Dundas St E @ Jarvis St',43.65695,-79.37471,2,1665061
 6925,'6817','Queen St E @ Silver Birch Ave',43.67326,-79.28497,1,1665094
+6934,'847','College St @ University Ave (Queen''s Pk Sta',43.65970,-79.39077,1,1665124
 6970,'1106','Gerrard St E @ Sackville St',43.66251,-79.36412,2,1665244
 6983,'10229','Parliament St @ Richmond St E',43.65462,-79.36413,1,1665278
 7002,'2775','Kingston Rd @ Dundas St E',43.67009,-79.31123,2,1686171
@@ -382,7 +386,6 @@
 7107,'6856','Queen St W @ Tecumseth St',43.64657,-79.40672,1,1687137
 7147,'1769','Broadview Ave @ Wolfrey Ave',43.67446,-79.35734,2,1687261
 7148,'3032','Queen St E @ Broadview Ave',43.65875,-79.35006,1,1687262
-7154,'248','Bay St @ Gerrard St W N',43.65878,-79.38487,1,1687289
 7159,'110','Bathurst St @ College St',43.65624,-79.40751,2,1687294
 7178,'1127','Gerrard St E @ Woodbine Ave',43.68064,-79.31083,2,1687355
 7237,'760','Carlton St @ Yonge St - College Sta',43.66144,-79.38291,1,1688191
@@ -425,7 +428,6 @@
 7981,'2092','Dufferin St @ Springhurst Ave',43.63501,-79.42593,1,1695067
 7987,'2428','Erindale Ave @ Broadview Ave',43.67753,-79.35842,2,1695073
 7998,'1121','Gerrard St E @ Golfview Ave',43.68209,-79.30829,2,1695105
-8016,'244','Bay St @ Elm St',43.65714,-79.38418,1,1715997
 8017,'13362','Fleet St @ Bathurst St W',43.63642,-79.40055,2,1715998
 8020,'1114','Gerrard St E @ Beaton Ave',43.67628,-79.31688,2,1716022
 8033,'3056','Queen St E @ Leslie St',43.66314,-79.33038,1,1716056
@@ -453,6 +455,7 @@
 8421,'1759','Broadview Ave @ Langley Ave-Bridgepoint Health Ctr',43.66766,-79.35331,2,1719867
 8431,'990','Dundas St W @ Sterling Rd',43.65068,-79.44278,2,1719898
 8448,'1092','Gerrard St E @ Jones Ave',43.66909,-79.33578,2,1719936
+8529,'845','College St @ St George St',43.65880,-79.39575,2,1720836
 8557,'5150','Lk Shr Blvd W @ Tenth St',43.59988,-79.50880,1,1720927
 8578,'2182','Dundas St W @ Roncesvalles Ave',43.65369,-79.45136,2,1720990
 8588,'3068','Queen St E @ Sackville St',43.65610,-79.36187,1,1721021
@@ -470,6 +473,7 @@
 8888,'4162','King St W @ Shaw St',43.64131,-79.41522,1,1723904
 8910,'6646','Parliament St @ Shuter St',43.65684,-79.36486,1,1724640
 8911,'4168','King St W @ Dunn Ave',43.63765,-79.43338,2,1724641
+8925,'813','College St @ Bay St',43.66067,-79.38617,2,1724676
 8930,'4155','King St W @ Atlantic Ave',43.64005,-79.42142,1,1724702
 8931,'162','Bathurst St @ King St W',43.64414,-79.40283,1,1724703
 8941,'5152','Lk Shr Blvd W @ Thirteenth St',43.59921,-79.51196,1,1724734
@@ -486,6 +490,7 @@
 9309,'13890','King St W @ Spencer Ave',43.63831,-79.43076,2,1748643
 9317,'6825','Queen St W @ Abell St',43.64298,-79.42447,1,1748672
 9344,'7357','Spadina Ave @ Sussex Ave',43.66451,-79.40261,1,1748762
+9363,'841','College St @ Queens Pk (Queen''s Pk Sta)',43.66000,-79.39014,1,1748823
 9367,'96','Bathurst St @ Bloor St W',43.66501,-79.41107,1,1748827
 9399,'2124','Dundas St E @ Parliament St',43.65928,-79.36629,2,1748922
 9404,'753','Carlton St @ Jarvis St',43.66231,-79.37684,2,1749599
@@ -493,13 +498,11 @@
 9436,'2772','Kingston Rd @ Columbine Ave',43.67168,-79.31036,2,1749694
 9454,'2189','Dundas St W @ Spadina Ave',43.65278,-79.39834,2,1749754
 9483,'12085','Spadina Ave @ Queens Quay W N',43.63814,-79.39201,1,1749846
-9493,'2174','Dundas St W @ McCaul St',43.65441,-79.39121,2,1749877
 9516,'2032','Dufferin Gt Loop',43.63440,-79.42587,1,1750593
 9523,'6640','Parliament St @ King St E',43.65278,-79.36334,1,1750621
 9530,'2072','Dufferin St @ Liberty St',43.63741,-79.42689,1,1750649
 9545,'7358','Spadina Ave @ Willcocks St',43.66112,-79.40126,1,1750685
 9597,'1757','Broadview Ave @ Gerrard St E',43.66527,-79.35244,2,1750842
-9623,'238','Bay St @ College St',43.66067,-79.38567,1,1751582
 9642,'14281','The Queensway @ Ellis Ave E',43.63793,-79.46568,1,1751643
 9645,'1104','Gerrard St E @ River St',43.66356,-79.35933,2,1751646
 9671,'2770','Kingston Rd @ Brookside Dr',43.67711,-79.30384,1,1751735
@@ -620,3 +623,4 @@
 42465,'16578','Adelaide St W @ Yonge St',43.65027,-79.37855,2,49564341
 42499,'13874','Richmond St W @ York St',43.65060,-79.38422,2,49564438
 42622,'16716','York St @ Adelaide St W',43.64942,-79.38431,2,49566136
+43072,'11895','Broadview Ave @ Queen St E N',43.65946,-79.34998,2,49590316
