@@ -17,15 +17,25 @@ import org.mtransit.parser.mt.data.MAgency;
 import org.mtransit.parser.mt.data.MDirection;
 import org.mtransit.parser.mt.data.MDirectionCardinalType;
 
-import java.util.Collections;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
-// https://open.toronto.ca/dataset/ttc-routes-and-schedules/ # ALL (including SUBWAY)
-// https://open.toronto.ca/dataset/surface-routes-and-schedules-for-bustime/ BUS & STREETCAR
-// https://open.toronto.ca/dataset/merged-gtfs-ttc-routes-and-schedules/
-// OLD: https://opendata.toronto.ca/toronto.transit.commission/ttc-routes-and-schedules/SurfaceGTFS.zip
+// TTC Real-Time Next Vehicle Arrival (NVAS) [RETIRED]
+// - https://open.toronto.ca/dataset/ttc-real-time-next-vehicle-arrival-nvas/
+// -----
+// TTC BusTime Real-Time Next Vehicle Arrival (NVAS):
+// - https://open.toronto.ca/dataset/ttc-bustime-real-time-next-vehicle-arrival-nvas/ -> https://bustime.ttc.ca/gtfsrt
+// - Surface Routes and Schedules for BusTime: (Buses and Streetcars)
+//   - https://open.toronto.ca/dataset/surface-routes-and-schedules-for-bustime/ -> https://...opendata.inter.prod-toronto.ca/dataset/.../download/SurfaceGTFS.zip
+// -----
+// TTC GTFS-Realtime (GTFS-RT):
+// - https://open.toronto.ca/dataset/ttc-gtfs-realtime-gtfs-rt/ -> https://gtfsrt.ttc.ca/
+// - Merged GTFS - TTC Routes and Schedules:
+//   - https://open.toronto.ca/dataset/merged-gtfs-ttc-routes-and-schedules/ -> https://...opendata.inter.prod-toronto.ca/dataset/.../download/Complete%20GTFS.zip
+// -----
+// OLD: https://open.toronto.ca/dataset/ttc-routes-and-schedules/ # ALL (including SUBWAY)
 // OLD: http://opendata.toronto.ca/TTC/routes/OpenData_TTC_Schedules.zip
 // OLD: http://opendata.toronto.ca/toronto.transit.commission/ttc-routes-and-schedules/OpenData_TTC_Schedules.zip
 public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
@@ -120,8 +130,9 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 	@NotNull
 	@Override
 	public List<Integer> getDirectionTypes() {
-		return Collections.singletonList(
-				MDirection.HEADSIGN_TYPE_DIRECTION
+		return Arrays.asList(
+				MDirection.HEADSIGN_TYPE_DIRECTION,
+				MDirection.HEADSIGN_TYPE_STRING // route 5
 		);
 	}
 
@@ -178,11 +189,11 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 
 	private static final Pattern STARTS_WITH_DASH_ = Pattern.compile("((?<=[A-Z]{4,5}) - .*$)", Pattern.CASE_INSENSITIVE);
 
-	@NotNull
 	@Override
-	public String cleanDirectionHeadsign(int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
+	public @NotNull String cleanDirectionHeadsign(@Nullable GRoute gRoute, int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
 		directionHeadSign = STARTS_WITH_DASH_.matcher(directionHeadSign).replaceAll(EMPTY); // keep East/West/North/South
 		directionHeadSign = CleanUtils.toLowerCaseUpperCaseWords(Locale.ENGLISH, directionHeadSign);
+		directionHeadSign = CleanUtils.keepTo(directionHeadSign);
 		return CleanUtils.cleanLabel(getFirstLanguageNN(), directionHeadSign);
 	}
 
