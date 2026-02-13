@@ -34,7 +34,6 @@
 656,'149','Bathurst St @ Harbord St',43.66161,-79.40989,2,53591
 683,'836','College St @ Lansdowne Ave',43.65117,-79.43987,2,53681
 751,'4140','King St E @ Parliament St',43.65256,-79.36337,1,54547
-760,'2790','Kingston Rd @ Rainsford Rd',43.67276,-79.30913,1,54577
 764,'9318','Broadview Ave @ Mountstephen St',43.66410,-79.35214,2,54581
 783,'4576','Roncesvalles Ave @ Grenadier Rd',43.64864,-79.44987,2,54642
 799,'6831','Queen St W @ Dovercourt Rd',43.64339,-79.42253,1,54679
@@ -203,7 +202,6 @@
 4004,'14939','St Clair Ave W @ Keele St/ Weston Rd',43.67245,-79.46784,2,1596800
 4005,'14940','St Clair Ave W @ Weston Rd/ Keele St W',43.67244,-79.46819,2,1596801
 4014,'14958','Gunns Loop @ St Clair Ave W',43.67191,-79.47184,2,1596831
-4024,'14977','Queen St W @ Dufferin St W',43.64215,-79.42933,1,1596862
 4038,'14992','Roncesvalles Ave @ Marion St S',43.64065,-79.44695,2,1596897
 4039,'14993','Roncesvalles Ave @ High Pk Blvd S',43.64592,-79.44899,2,1596898
 4040,'14994','Roncesvalles Ave @ Grenadier Rd',43.64889,-79.45012,2,1596920
@@ -619,8 +617,11 @@
 41052,'16402','The Queensway @ Glendale Ave - St Joseph''s Health Ctr',43.63955,-79.45184,1,49530672
 42325,'12338','College St @ Augusta Ave',43.65749,-79.40308,1,49563256
 42328,'16429','Queen St W @ Roncesvalles Ave E',43.63881,-79.44543,1,49563259
+42349,'16454','Bathurst St @ Nassau St - Toronto Western Hosp',43.65472,-79.40687,1,49563322
 42371,'16520','Queen St E @ Wineva Ave E',43.67105,-79.29503,1,49563407
 42465,'16578','Adelaide St W @ Yonge St',43.65027,-79.37855,2,49564341
 42499,'13874','Richmond St W @ York St',43.65060,-79.38422,2,49564438
 42622,'16716','York St @ Adelaide St W',43.64942,-79.38431,2,49566136
 43072,'11895','Broadview Ave @ Queen St E N',43.65946,-79.34998,2,49590316
+43105,'16838','Kingston Rd @ Columbine Ave',43.67138,-79.31031,1,49591063
+43109,'16849','Queen St W @ Dufferin St',43.64237,-79.42834,1,49591067
