@@ -10,12 +10,10 @@ import org.mtransit.commons.TorontoTTCCommons;
 import org.mtransit.parser.DefaultAgencyTools;
 import org.mtransit.parser.gtfs.data.GRoute;
 import org.mtransit.parser.gtfs.data.GRouteType;
-import org.mtransit.parser.gtfs.data.GStop;
 import org.mtransit.parser.gtfs.data.GStopTime;
 import org.mtransit.parser.gtfs.data.GTrip;
 import org.mtransit.parser.mt.data.MAgency;
 import org.mtransit.parser.mt.data.MDirection;
-import org.mtransit.parser.mt.data.MDirectionCardinalType;
 
 import java.util.Arrays;
 import java.util.List;
@@ -174,27 +172,14 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		return null;
 	}
 
-	@Override
-	public @Nullable MDirectionCardinalType convertDirection(@Nullable String headSign) {
-		if (headSign != null) {
-			switch (headSign.toLowerCase(Locale.ROOT)) {
-			case "line 6 finch west towards finch west station":
-				return MDirectionCardinalType.EAST;
-			case "line 6 finch west towards humber college":
-				return MDirectionCardinalType.WEST;
-			}
-		}
-		return super.convertDirection(headSign);
-	}
-
 	private static final Pattern STARTS_WITH_DASH_ = Pattern.compile("((?<=[A-Z]{4,5}) - .*$)", Pattern.CASE_INSENSITIVE);
 
 	@Override
 	public @NotNull String cleanDirectionHeadsign(@Nullable GRoute gRoute, int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
 		directionHeadSign = STARTS_WITH_DASH_.matcher(directionHeadSign).replaceAll(EMPTY); // keep East/West/North/South
 		directionHeadSign = CleanUtils.toLowerCaseUpperCaseWords(Locale.ENGLISH, directionHeadSign);
-		directionHeadSign = CleanUtils.keepTo(directionHeadSign);
-		return CleanUtils.cleanLabel(getFirstLanguageNN(), directionHeadSign);
+		directionHeadSign = CleanUtils.keepTo(directionHeadSign); // LRT 5 & 6
+		return super.cleanDirectionHeadsign(gRoute, directionId, fromStopName, directionHeadSign);
 	}
 
 	private static final Pattern KEEP_LETTER_AND_TOWARDS_ = Pattern.compile("(^" +
@@ -268,14 +253,5 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		gStopName = CleanUtils.cleanStreetTypes(gStopName);
 		gStopName = CleanUtils.cleanNumbers(gStopName);
 		return CleanUtils.cleanLabel(getFirstLanguageNN(), gStopName);
-	}
-
-	@Override
-	public boolean excludeStop(@NotNull GStop gStop) {
-		//noinspection DiscouragedApi
-		if (gStop.getStopId().equals(gStop.getStopCode())) {
-			return EXCLUDE; // 2025-10-15: merged GTFS > multiple stops with same ID (different code)
-		}
-		return super.excludeStop(gStop);
 	}
 }
