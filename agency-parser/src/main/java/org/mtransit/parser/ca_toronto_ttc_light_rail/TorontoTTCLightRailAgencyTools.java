@@ -10,10 +10,7 @@ import org.mtransit.parser.DefaultAgencyTools;
 import org.mtransit.parser.gtfs.data.GRoute;
 import org.mtransit.parser.gtfs.data.GStopTime;
 import org.mtransit.parser.gtfs.data.GTrip;
-import org.mtransit.parser.mt.data.MDirection;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.regex.Pattern;
 
 public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
@@ -22,14 +19,6 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		new TorontoTTCLightRailAgencyTools().start(args);
 	}
 
-	@NotNull
-	@Override
-	public List<Integer> getDirectionTypes() {
-		return Arrays.asList(
-				MDirection.HEADSIGN_TYPE_DIRECTION,
-				MDirection.HEADSIGN_TYPE_STRING // route 5
-		);
-	}
 
 	private static final String L_ = "L ";
 
