@@ -23,10 +23,8 @@
   "route_colors_ignored": [
   ],
   "direction_types": [
-    1,
-    0
+    1
   ],
-  "direction_types_comment": "string(0) for route 5 (& 6) only",
   "direction_finder_enabled": true,
   "direction_headsign_cleaners": [
     {
