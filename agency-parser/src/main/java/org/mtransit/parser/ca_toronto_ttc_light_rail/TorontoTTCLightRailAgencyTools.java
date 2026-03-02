@@ -7,9 +7,6 @@ import org.jetbrains.annotations.Nullable;
 import org.mtransit.commons.CleanUtils;
 import org.mtransit.commons.StringUtils;
 import org.mtransit.parser.DefaultAgencyTools;
-import org.mtransit.parser.gtfs.data.GRoute;
-import org.mtransit.parser.gtfs.data.GStopTime;
-import org.mtransit.parser.gtfs.data.GTrip;
 
 import java.util.regex.Pattern;
 
@@ -52,16 +49,6 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		return null;
 	}
 
-	private static final Pattern STARTS_WITH_DASH_ = Pattern.compile("((?<=[A-Z]{4,5}) - .*$)", Pattern.CASE_INSENSITIVE);
-
-	@Override
-	public @NotNull String cleanDirectionHeadsign(@Nullable GRoute gRoute, int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
-		directionHeadSign = STARTS_WITH_DASH_.matcher(directionHeadSign).replaceAll(EMPTY); // keep East/West/North/South
-		directionHeadSign = CleanUtils.toLowerCaseUpperCaseWords(getFirstLanguageNN(), directionHeadSign);
-		directionHeadSign = CleanUtils.keepTo(directionHeadSign); // LRT 5 & 6
-		return super.cleanDirectionHeadsign(gRoute, directionId, fromStopName, directionHeadSign);
-	}
-
 	private static final Pattern KEEP_LETTER_AND_TOWARDS_ = Pattern.compile("(^" +
 			"(([a-z]+) - )?" + // EAST/WEST/NORTH/SOUTH -
 			"(\\d+(/\\d+)?)?" + // 000(/000?)
@@ -97,23 +84,5 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		return CleanUtils.cleanLabel(getFirstLanguageNN(), tripHeadsign);
 	}
 
-	private static Pattern makeRSN_RLN_(@NotNull String rln) {
-		return Pattern.compile(
-				"(" +
-						"(\\d+(/\\d+)?)" + // 000(/000?)
-						"([a-z] )?" + // A (from 000A)
-						"(\\s*(" + rln + ")\\s*)?" +
-						")",
-				Pattern.CASE_INSENSITIVE);
-	}
-
-	private static final String RSN_RLN_REPLACEMENT = "$4";
-
-	@Override
-	public @NotNull String cleanStopHeadSign(@NotNull GRoute gRoute, @NotNull GTrip gTrip, @NotNull GStopTime gStopTime, @NotNull String stopHeadsign) {
-		stopHeadsign = makeRSN_RLN_(gRoute.getRouteLongNameOrDefault())
-				.matcher(stopHeadsign).replaceAll(RSN_RLN_REPLACEMENT);
-		return super.cleanStopHeadSign(gRoute, gTrip, gStopTime, stopHeadsign);
-	}
 }
 

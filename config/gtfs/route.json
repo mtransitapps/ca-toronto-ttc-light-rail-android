@@ -14,7 +14,12 @@
   "default_route_id_enabled": true,
   "use_route_short_name_for_route_id": true,
   "default_route_long_name_enabled": true,
-  "stop_headsign_remove_route_long_name": true,
+  "stop_headsign_remove_route_long_name_complex": true,
+  "stop_headsign_remove_route_long_name_cleaner": {
+    "regex": "((\\d+(/\\d+)?)([a-z] )?(\\s*(%1$s)\\s*)?)",
+    "ignore_case": true,
+    "replacement": "$4"
+  },
   "route_colors_ignored": [
   ],
   "direction_types": [
