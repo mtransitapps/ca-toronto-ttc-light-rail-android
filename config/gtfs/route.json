@@ -31,7 +31,7 @@
   ],
   "trip_excludes": [
     {
-      "trip_headsign_regex": "(Not In Service)",
+      "trip_headsign_regex": "(not in service)",
       "ignore_case": true
     }
   ],

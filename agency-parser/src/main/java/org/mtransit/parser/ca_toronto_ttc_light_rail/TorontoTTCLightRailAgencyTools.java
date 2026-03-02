@@ -19,7 +19,6 @@ public class TorontoTTCLightRailAgencyTools extends DefaultAgencyTools {
 		new TorontoTTCLightRailAgencyTools().start(args);
 	}
 
-
 	private static final String L_ = "L ";
 
 	private static final Pattern DIRECTION_ONLY = Pattern.compile("(^(east|west|north|south)$)", Pattern.CASE_INSENSITIVE);
