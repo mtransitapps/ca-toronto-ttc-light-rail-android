@@ -152,7 +152,7 @@
 2673,'1758','Broadview Ave @ Gerrard St E',43.66566,-79.35279,2,1543200
 2687,'838','College St @ McCaul St',43.65932,-79.39328,2,1543235
 2691,'6801','Queen St E @ Beech Ave',43.67256,-79.28769,1,1543260
-2708,'10946','Queens Quay/Ferry Docks Sta',43.64142,-79.37709,1,1543949
+2708,'10946','Queens Quay / Ferry Docks Sta',43.64142,-79.37709,1,1543949
 2715,'1063','Manitoba Dr @ Strachan Ave W',43.63630,-79.41041,1,1543977
 2734,'14355','St Clair Ave W @ Spadina Rd W',43.68454,-79.41170,2,1544038
 2745,'14400','King St W @ Joe Shuster Way',43.63980,-79.42341,2,1544070
@@ -201,8 +201,8 @@
 4001,'14936','St Clair Ave W @ Silverthorn Ave W',43.67411,-79.46055,2,1596797
 4002,'14937','St Clair Ave W @ Old Weston Rd E',43.67360,-79.46244,2,1596798
 4003,'14938','St Clair Ave W @ Old Weston Rd W',43.67343,-79.46358,2,1596799
-4004,'14939','St Clair Ave W @ Keele St/ Weston Rd',43.67245,-79.46784,2,1596800
-4005,'14940','St Clair Ave W @ Weston Rd/ Keele St W',43.67244,-79.46819,2,1596801
+4004,'14939','St Clair Ave W @ Keele St / Weston Rd',43.67245,-79.46784,2,1596800
+4005,'14940','St Clair Ave W @ Weston Rd / Keele St W',43.67244,-79.46819,2,1596801
 4014,'14958','Gunns Loop @ St Clair Ave W',43.67191,-79.47184,2,1596831
 4038,'14992','Roncesvalles Ave @ Marion St S',43.64065,-79.44695,2,1596897
 4039,'14993','Roncesvalles Ave @ High Pk Blvd S',43.64592,-79.44899,2,1596898
@@ -290,7 +290,7 @@
 5365,'837','College St @ McCaul St',43.65906,-79.39372,2,1629661
 5382,'2839','Bingham Loop',43.68146,-79.28500,2,1629720
 5395,'8149','St Clair Ave W @ Ave Rd E',43.68667,-79.40088,2,1629754
-5443,'10945','Queens Quay/Ferry Docks Sta',43.64181,-79.37719,2,1630558
+5443,'10945','Queens Quay / Ferry Docks Sta',43.64181,-79.37719,2,1630558
 5457,'812','College St @ Bathurst St',43.65657,-79.40734,2,1630593
 5472,'4139','King St E @ Ontario St',43.65186,-79.36588,1,1630650
 5483,'5156','Lk Shr Blvd W @ Twenty 2nd St',43.59734,-79.52125,1,1630682
@@ -466,7 +466,7 @@
 8738,'6854','Queen St W @ Strachan Ave',43.64524,-79.41331,1,1722788
 8763,'7353','Spadina Ave @ King St W N',43.64600,-79.39515,1,1722876
 8766,'10176','King St W @ Portland St',43.64453,-79.39994,1,1722879
-8778,'1252','High Pk Loop',43.64783,-79.45812,2,1722912
+8778,'1252','High Park Loop',43.64783,-79.45812,2,1722912
 8780,'6842','Queen St W @ Lansdowne Ave',43.64069,-79.43646,1,1722935
 8868,'186','Bathurst St @ Queen St W',43.64707,-79.40390,2,1723842
 8888,'4162','King St W @ Shaw St',43.64131,-79.41522,1,1723904
